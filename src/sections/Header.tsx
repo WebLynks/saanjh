@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Link, Outlet } from "react-router";
 import logoImgSrc from "/sannjh-logo-normal.png";
 
 function Header() {
@@ -11,9 +11,13 @@ function Header() {
             Saanjh
           </div>
         </div>
-        <nav className="flex flex-col px-2 font-semibold uppercase text-orange-500 md:flex-row md:flex-wrap md:rounded-full md:bg-pink-50/80">
-          <div className="p-2">Home</div>
-          <div className="p-2">Events</div>
+        <nav className="flex flex-col px-2 py-4 font-semibold uppercase text-orange-500 md:flex-row md:flex-wrap md:rounded-full md:bg-pink-50/80 md:py-0">
+          <Link to={"/"} className="p-2">
+            Home
+          </Link>
+          <Link to={"/event"} className="p-2">
+            Events
+          </Link>
           <div className="p-2">Services</div>
           <div className="p-2">About Us</div>
           <div className="p-2">Contact</div>
