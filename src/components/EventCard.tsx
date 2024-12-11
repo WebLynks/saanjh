@@ -11,7 +11,7 @@ type EventCardProps = {
 
 function EventCard({
   name = "Loneliness",
-  imgName = "poster-25-aug slide-1.png",
+  imgName = "poster_25_aug",
   date = "25th August, 2024",
   amount = "₹400",
   numberOfSlots = "6",

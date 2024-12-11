@@ -1,4 +1,4 @@
-import imgSrc from "../assets/images/corporate-transparent.png";
+import imgSrc from "../assets/images/corporate_transparent.png";
 
 function Story() {
   return (

@@ -1,4 +1,4 @@
-import headerBgImgSrc from "../assets/images/header-background.png";
+import headerBgImgSrc from "../assets/images/header_background.png";
 
 function Event() {
   return (

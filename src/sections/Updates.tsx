@@ -8,7 +8,7 @@ function Updates() {
         <div className="grid grid-cols-3 gap-8 py-10">
           <UpdateCard
             date="8th March, 2024"
-            bgColor="yellow-300"
+            bgColor="mango"
             content="Anger Management and self
 love treatment"
           />

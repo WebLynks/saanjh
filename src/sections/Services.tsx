@@ -8,17 +8,17 @@ function Services() {
         <div className="grid grid-cols-3 gap-8 py-10">
           <ServiceCard
             name="Corporate Workshops"
-            imgName="corporate-transparent.png"
+            imgName="corporate_transparent"
             bgColor="sapphire"
           />
           <ServiceCard
             name="Group Sessions"
-            imgName="group-sessions-transparent.png"
+            imgName="group_sessions_transparent"
             bgColor="mango"
           />
           <ServiceCard
             name="Individual Therapy"
-            imgName="therapy-transparent.png"
+            imgName="therapy_transparent"
             bgColor="iris"
           />
         </div>

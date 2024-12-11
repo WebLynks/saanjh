@@ -1,4 +1,4 @@
-import pearlBackgroundImgSrc from "../assets/images/pearl-background.png";
+import pearlBackgroundImgSrc from "../assets/images/pearl_background.png";
 import EventCard from "../components/EventCard";
 
 function Events() {

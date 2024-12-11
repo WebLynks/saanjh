@@ -8,12 +8,11 @@ type ServiceCardProps = {
 
 function ServiceCard({ name, imgName, bgColor }: ServiceCardProps) {
   const { loading, image } = useImage(imgName);
-  const shadowColor = `shadow-${bgColor}`;
 
   return (
     <>
       <div className="col-span-3 md:col-span-1">
-        <div className={`rounded-lg shadow-md ${shadowColor}`}>
+        <div className={`rounded-lg shadow-sm shadow-${bgColor}`}>
           <div
             className={`relative rounded-t-lg bg-${bgColor} text-center opacity-50`}
           >
