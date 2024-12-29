@@ -5,6 +5,10 @@ import therapy_transparent from "./therapy_transparent.png";
 import poster_25_aug from "./poster_25_aug.png";
 import ruchi from "./ruchi.png";
 import abhramika from "./abhramika.png";
+import blog1 from "./blog1.png";
+import blog2 from "./blog2.png";
+import blog3 from "./blog3.png";
+import blog4 from "./blog4.png";
 // Add more images here
 
 const images: { [key: string]: string } = {
@@ -14,6 +18,10 @@ const images: { [key: string]: string } = {
   poster_25_aug,
   ruchi,
   abhramika,
+  blog1,
+  blog2,
+  blog3,
+  blog4,
 };
 
 export default images;
