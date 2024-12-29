@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Verdana"', ...defaultTheme.fontFamily.sans],
+        sans: ["Verdana", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         iris: "#CB89DB",
@@ -31,5 +31,5 @@ export default {
     "shadow-sapphire",
     "shadow-mango",
   ],
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

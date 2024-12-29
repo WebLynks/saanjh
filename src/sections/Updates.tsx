@@ -3,9 +3,9 @@ import UpdateCard from "../components/UpdateCard";
 function Updates() {
   return (
     <>
-      <div className="px-[5dvw] py-20">
+      <div className="px-[10dvw] py-16">
         <div className="text-4xl font-semibold">The Latest From Saanjh</div>
-        <div className="grid grid-cols-3 gap-8 py-10">
+        <div className="grid grid-cols-3 gap-4 pt-10">
           <UpdateCard
             date="8th March, 2024"
             bgColor="mango"

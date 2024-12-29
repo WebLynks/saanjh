@@ -1,13 +1,15 @@
+import { Outlet } from "react-router";
 import "./App.css";
 import Header from "./sections/Header";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
-    <>
-      <div className="relative">
-        <Header />
-      </div>
-    </>
+    <div className="">
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
   );
 }
 

@@ -1,9 +1,9 @@
-import imgSrc from "../assets/images/corporate_transparent.png";
+import corporateTransparentImage from "../assets/images/corporate_transparent.png";
 
 function Story() {
   return (
     <>
-      <div className="grid grid-cols-5 gap-4 bg-gray-300 px-[5dvw] py-20">
+      <div className="grid grid-cols-5 gap-4 bg-purple-100 px-[10dvw] py-16">
         <div className="col-span-5 md:col-span-3">
           <div className="space-y-8">
             <div className="text-4xl font-semibold text-gray-800">
@@ -33,9 +33,9 @@ function Story() {
         </div>
         <div className="col-span-5 flex items-center justify-center md:col-span-2">
           <img
-            src={imgSrc}
+            src={corporateTransparentImage}
             alt="Story"
-            className="h-full w-auto object-contain"
+            className="h-auto w-full object-contain"
           />
         </div>
       </div>

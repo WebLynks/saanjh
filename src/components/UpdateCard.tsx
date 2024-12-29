@@ -7,7 +7,9 @@ type UpdateCardProps = {
 function UpdateCard({ date, content, bgColor }: UpdateCardProps) {
   return (
     <>
-      <div className={`bg-${bgColor} col-span-3 rounded-2xl p-6 md:col-span-1`}>
+      <div
+        className={`bg-${bgColor} col-span-3 rounded-2xl bg-opacity-75 p-6 md:col-span-1`}
+      >
         <div className="flex flex-col items-start justify-between gap-8 font-semibold">
           <div className="text-xs">{date}</div>
           <div>{content}</div>

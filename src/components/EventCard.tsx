@@ -22,7 +22,7 @@ function EventCard({
   return (
     <>
       <div className="col-span-3 md:col-span-1">
-        <div className={`shadow-md`}>
+        <div className={`shadow-xl`}>
           <div className="">
             {loading ? (
               `loading...`
