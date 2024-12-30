@@ -30,6 +30,10 @@ export default {
     "shadow-sunset",
     "shadow-sapphire",
     "shadow-mango",
+    "border-iris",
+    "border-sunset",
+    "border-sapphire",
+    "border-mango",
   ],
   plugins: [require("@tailwindcss/typography")],
 };

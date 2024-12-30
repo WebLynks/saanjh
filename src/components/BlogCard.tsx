@@ -13,7 +13,7 @@ function BlogCard({
   const { loading, image } = useImage(imageName);
 
   return (
-    <div className="col-span-3 p-8 sm:col-span-1">
+    <div className="col-span-3 p-8 hover:bg-pink-100 sm:col-span-1">
       <div className="flex flex-col items-start justify-around gap-4">
         {loading ? (
           `loading...`
