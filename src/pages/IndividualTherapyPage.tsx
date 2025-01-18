@@ -1,46 +1,41 @@
-import { formatDate } from "../utils/formatDate";
-import { Blog, fetchBlogs } from "../services/blogService";
-import useImage from "../hooks/useImage";
-import BlogCard from "../components/BlogCard";
+import individualTherapyHeader from "../assets/images/individual_therapy_header.png";
 
 function IndividualTherapyPage() {
-  const blogs = fetchBlogs();
-  const pinnedBlog: Blog =
-    blogs.find((blog: Blog) => blog.pinned === true) || blogs[0];
-  const { loading, image } = useImage(pinnedBlog.imageName);
-
   return (
-    <div>
-      <div className="flex flex-col gap-0 sm:flex-row">
-        <div className="w-full bg-pink-100 sm:w-1/2">
-          {loading ? (
-            `loading...`
-          ) : (
-            <img
-              className="h-[50dvh] w-full object-cover sm:h-[75dvh]"
-              src={image}
-              alt={pinnedBlog?.title}
-            />
-          )}
-        </div>
-        <div className="w-full bg-pink-100 sm:w-1/2">
-          <div className="prose flex flex-col gap-2 p-[10dvw] prose-h1:mb-2 prose-h4:mb-4 sm:p-[5dvw]">
-            <h3>{pinnedBlog.category}</h3>
-            <p className="text-sm">{formatDate(pinnedBlog.date)}</p>
-            <h1>{pinnedBlog.title}</h1>
-            <h4>{pinnedBlog.summary}</h4>
-            <p className="line-clamp-6 sm:line-clamp-2 md:line-clamp-3 lg:line-clamp-4 xl:line-clamp-5">
-              {pinnedBlog.body}
-            </p>
-            <p className="text-sm">{`${pinnedBlog.readingTime} read`}</p>
+    <div className="px-[5dvw] py-16">
+      <div
+        style={{ backgroundImage: `url(${individualTherapyHeader})` }}
+        className="bg-contain bg-right bg-no-repeat px-[5dvw]"
+      >
+        <div className="flex w-1/2 flex-col items-start justify-center gap-8">
+          <div className="text-3xl font-semibold text-gray-800">On Therapy</div>
+          <div>
+            The aim of therapy is to create a supportive space where you can
+            navigate life’s challenges and be authentically yourself
+          </div>
+          <div>
+            <div>
+              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <span>Self-exploration</span>
+            </div>
+            <div>
+              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <span>Identifying patterns</span>
+            </div>
+            <div>
+              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <span>Learning coping strategies</span>
+            </div>
+            <div>
+              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <span>Navigating through life’s challenges</span>
+            </div>
+            <div>
+              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <span>Finding a non-judgmental and supportive space</span>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="grid grid-cols-3 justify-items-center divide-x-2 divide-y-2">
-        {blogs.map((blog: Blog) => (
-          <BlogCard key={blog.title} {...blog} />
-        ))}
       </div>
     </div>
   );
