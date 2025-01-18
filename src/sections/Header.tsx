@@ -8,6 +8,11 @@ function Header() {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
+
+  const toggleMobileDropdown = () => {
+    setIsMobileDropdownOpen(!isMobileDropdownOpen);
+  };
 
   const handleLogoClick = () => {
     navigate("/");
@@ -36,7 +41,7 @@ function Header() {
           alt="Saanjh"
         />
         <div className="hidden md:block">
-          <nav className="space-x-3 rounded-full bg-pink-50 px-3 py-1 text-sunset">
+          <nav className="space-x-4 rounded-full bg-pink-50 px-4 py-1 text-sunset lg:space-x-8 lg:px-8">
             <Link to="/" onClick={toggleMenu}>
               Home
             </Link>
@@ -46,9 +51,34 @@ function Header() {
             <Link to="/blogs" onClick={toggleMenu}>
               Blogs
             </Link>
-            <Link to="/about-us" onClick={toggleMenu}>
+            {/* <Link to="/about-us" onClick={toggleMenu}>
               About Us
-            </Link>
+            </Link> */}
+            <div className="group relative inline-block">
+              <button className="focus:outline-none">Services</button>
+              <div className="absolute right-0 mt-2 w-48 rounded-md bg-pink-50 opacity-0 shadow-lg ring-1 ring-black ring-opacity-5 transition-opacity duration-300 group-hover:opacity-100">
+                <div
+                  className="py-1"
+                  role="menu"
+                  aria-orientation="vertical"
+                  aria-labelledby="options-menu"
+                >
+                  <Link
+                    to="/services/individual-therapy"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Individual Therapy
+                  </Link>
+                  <Link
+                    to="/services/individual-therapy"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Individual Therapy
+                  </Link>
+                </div>
+                <div className="absolute -top-2 right-0 h-0 w-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-pink-50"></div>
+              </div>
+            </div>
             <Link to="/contact" onClick={toggleMenu}>
               Contact
             </Link>
@@ -86,9 +116,35 @@ function Header() {
           <Link to="/blogs" onClick={toggleMenu}>
             Blogs
           </Link>
-          <Link to="/about-us" onClick={toggleMenu}>
+          {/* <Link to="/about-us" onClick={toggleMenu}>
             About Us
-          </Link>
+          </Link> */}
+          <div className="relative">
+            <button
+              onClick={toggleMobileDropdown}
+              className="focus:outline-none"
+            >
+              Services
+            </button>
+            {isMobileDropdownOpen && (
+              <div className="flex flex-col pl-4">
+                <Link
+                  to="/services/individual-therapy"
+                  className="block p-2 text-sm text-gray-700 hover:bg-gray-100"
+                  onClick={toggleMenu}
+                >
+                  Individual Therapy
+                </Link>
+                <Link
+                  to="/services/individual-therapy"
+                  className="block p-2 text-sm text-gray-700 hover:bg-gray-100"
+                  onClick={toggleMenu}
+                >
+                  Individual Therapy
+                </Link>
+              </div>
+            )}
+          </div>
           <Link to="/contact" onClick={toggleMenu}>
             Contact
           </Link>

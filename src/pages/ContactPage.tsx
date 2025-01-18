@@ -9,7 +9,7 @@ function ContactPage() {
     <div className="grid grid-cols-12">
       <div className="col-span-12 space-y-8 px-[10dvw] py-24 md:col-span-7">
         <div className="flex flex-col space-y-4">
-          <div className="text-lg font-semibold text-orange-400">
+          <div className="text-lg font-semibold text-sunset">
             Contact Information
           </div>
           <div className="text-sm">
@@ -19,25 +19,21 @@ function ContactPage() {
         </div>
         <div className="grid grid-cols-12 space-x-8">
           <div className="col-span-5 space-y-4">
-            <div className="text-lg font-semibold text-orange-400">Phone</div>
+            <div className="text-lg font-semibold text-sunset">Phone</div>
             <div className="text-sm">9899654321</div>
           </div>
           <div className="col-span-7 space-y-4">
-            <div className="text-lg font-semibold text-orange-400">
-              Location
-            </div>
+            <div className="text-lg font-semibold text-sunset">Location</div>
             <div className="text-sm">FF Main Street, 22nd Avenue</div>
           </div>
         </div>
         <div className="grid grid-cols-12 space-x-8">
           <div className="col-span-5 space-y-4">
-            <div className="text-lg font-semibold text-orange-400">Email</div>
+            <div className="text-lg font-semibold text-sunset">Email</div>
             <div className="text-sm">saanjh@gmail.com</div>
           </div>
           <div className="col-span-7 space-y-4">
-            <div className="text-lg font-semibold text-orange-400">
-              Follow Us
-            </div>
+            <div className="text-lg font-semibold text-sunset">Follow Us</div>
             <div className="flex space-x-4">
               <img
                 className="size-8 rounded-md bg-orange-400 p-1"

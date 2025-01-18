@@ -9,6 +9,7 @@ import Blog from "./pages/BlogPage.tsx";
 import ScrollToTop from "./components/ScrollToTop.tsx";
 import AboutUsPage from "./pages/AboutUsPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
+import IndividualTherapyPage from "./pages/IndividualTherapyPage.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -21,6 +22,12 @@ createRoot(document.getElementById("root")!).render(
             <Route path="blogs" element={<Blog />} />
             <Route path="about-us" element={<AboutUsPage />} />
             <Route path="contact" element={<ContactPage />} />
+            <Route path="services">
+              <Route
+                path="individual-therapy"
+                element={<IndividualTherapyPage />}
+              />
+            </Route>
           </Route>
         </Routes>
       </ScrollToTop>
