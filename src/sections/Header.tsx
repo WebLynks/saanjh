@@ -49,7 +49,7 @@ function Header() {
             <Link to="/about-us" onClick={toggleMenu}>
               About Us
             </Link>
-            <Link to="/" onClick={toggleMenu}>
+            <Link to="/contact" onClick={toggleMenu}>
               Contact
             </Link>
           </nav>
@@ -89,7 +89,7 @@ function Header() {
           <Link to="/about-us" onClick={toggleMenu}>
             About Us
           </Link>
-          <Link to="/" onClick={toggleMenu}>
+          <Link to="/contact" onClick={toggleMenu}>
             Contact
           </Link>
           <Link to="/" onClick={toggleMenu}>

@@ -12,7 +12,7 @@ function BlogPage() {
   return (
     <div>
       <div className="flex flex-col gap-0 sm:flex-row">
-        <div className="w-full bg-pink-50 sm:w-1/2">
+        <div className="w-full bg-pink-100 sm:w-1/2">
           {loading ? (
             `loading...`
           ) : (
@@ -24,7 +24,7 @@ function BlogPage() {
           )}
         </div>
         <div className="w-full bg-pink-100 sm:w-1/2">
-          <div className="prose prose-h1:mb-2 prose-h4:mb-4 flex flex-col gap-2 p-[10dvw] sm:p-[5dvw]">
+          <div className="prose flex flex-col gap-2 p-[10dvw] prose-h1:mb-2 prose-h4:mb-4 sm:p-[5dvw]">
             <h3>{pinnedBlog.category}</h3>
             <p className="text-sm">{formatDate(pinnedBlog.date)}</p>
             <h1>{pinnedBlog.title}</h1>
