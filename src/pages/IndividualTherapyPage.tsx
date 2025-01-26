@@ -1,43 +1,147 @@
 import individualTherapyHeader from "../assets/images/individual_therapy_header.png";
+import individualTherapyRuchi from "../assets/images/IndividualTherapyRuchi.png";
+import individualTherapyLine from "../assets/images/IndividualTherapyLine.png";
+import flameUniversityLogo from "../assets/images/FLAME-University-Logo.png";
+import kingsCollegeLogo from "../assets/images/king-s-college-london-logo.png";
+import saanjhLogo from "../assets/images/saanjh_logo.png";
 
 function IndividualTherapyPage() {
   return (
-    <div className="px-[5dvw] py-16">
-      <div
-        style={{ backgroundImage: `url(${individualTherapyHeader})` }}
-        className="bg-contain bg-right bg-no-repeat px-[5dvw]"
-      >
-        <div className="flex w-1/2 flex-col items-start justify-center gap-8">
-          <div className="text-3xl font-semibold text-gray-800">On Therapy</div>
-          <div>
-            The aim of therapy is to create a supportive space where you can
-            navigate life’s challenges and be authentically yourself
-          </div>
-          <div>
-            <div>
-              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
-              <span>Self-exploration</span>
+    <>
+      <div className="px-[5dvw] py-16">
+        <div
+          style={{ backgroundImage: `url(${individualTherapyHeader})` }}
+          className="bg-contain bg-right bg-no-repeat px-[5dvw]"
+        >
+          <div className="w-12/12 flex flex-col items-start justify-center gap-8 md:w-8/12">
+            <div className="text-3xl font-semibold text-gray-800">
+              On Therapy
             </div>
             <div>
-              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
-              <span>Identifying patterns</span>
+              The aim of therapy is to create a supportive space where you can
+              navigate life’s challenges and be authentically yourself
             </div>
             <div>
-              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
-              <span>Learning coping strategies</span>
-            </div>
-            <div>
-              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
-              <span>Navigating through life’s challenges</span>
-            </div>
-            <div>
-              <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
-              <span>Finding a non-judgmental and supportive space</span>
+              <div>
+                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+                <span>Self-exploration</span>
+              </div>
+              <div>
+                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+                <span>Identifying patterns</span>
+              </div>
+              <div>
+                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+                <span>Learning coping strategies</span>
+              </div>
+              <div>
+                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+                <span>Navigating through life’s challenges</span>
+              </div>
+              <div>
+                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+                <span>Finding a non-judgmental and supportive space</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div className="border-y">
+        <div className="grid grid-cols-2">
+          <div className="col-span-2 md:col-span-1">
+            <img
+              src={individualTherapyRuchi}
+              alt="IndividualTherapyRuchi"
+              className="h-full"
+            />
+          </div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="flex h-full flex-col justify-center gap-4 px-[10dvw] py-16 md:px-[5dvw]">
+              <div className="text-2xl font-semibold text-gray-800 lg:text-3xl">
+                Meet Our Therapist
+              </div>
+              <div className="font-semibold italic text-mango">
+                Ruchi Bhutada (she/her)
+              </div>
+              <div className="text-base">
+                As a therapist, my hope is to create a space where you are able
+                to access the tools to navigate any challenges you may have. I
+                do not believe that I am the expert of your life, therefore this
+                process only works if we collaborate. I believe the therapeutic
+                relationship to be the most important part of therapy, and
+                therefore hope to create a space where you can be authentically
+                yourself.
+              </div>
+              <img
+                className="mt-8"
+                src={individualTherapyLine}
+                alt="IndividualTherapyLine"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="py-8 text-center text-3xl font-semibold text-gray-800">
+        Qualifications
+      </div>
+      <div className="flex flex-col items-center justify-evenly gap-8 bg-sky-200 py-16 md:flex-row">
+        <div className="flex w-5/12 flex-col items-center gap-4 md:w-4/12">
+          <img
+            className="w-full md:w-1/2"
+            src={kingsCollegeLogo}
+            alt="King's College Logo"
+          />
+          <div className="text-center">MSc Mental Health Studies</div>
+        </div>
+        <div className="flex w-5/12 flex-col items-center justify-center gap-4 md:w-4/12">
+          <img
+            className="w-full md:w-2/3"
+            src={flameUniversityLogo}
+            alt="Flame University Logo"
+          />
+          <div className="text-center">
+            BA (Psychology) & PG Diploma in Interdisciplinary Studies and
+            Research (Psychology)
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-5 text-xl font-semibold text-white lg:text-2xl">
+        <div className="col-span-5 flex h-24 items-center justify-center bg-mango p-4 md:col-span-1">
+          <div className="flex flex-col items-center md:items-start">
+            <div className="">1000+</div>
+            <div className="text-base font-normal">of client hours</div>
+          </div>
+        </div>
+        <div className="col-span-5 flex h-24 items-center justify-center bg-sunset p-4 md:col-span-1">
+          <div className="flex flex-col items-center md:items-start">
+            <div className="">2+</div>
+            <div className="text-base font-normal">years of exp.</div>
+          </div>
+        </div>
+        <div className="col-span-5 flex h-24 items-center justify-center bg-white md:col-span-1">
+          <img
+            className="h-5/6 w-3/4 object-contain"
+            src={saanjhLogo}
+            alt="Saanjh Logo"
+          />
+        </div>
+        <div className="col-span-5 flex h-24 items-center justify-center bg-iris p-4 md:col-span-1">
+          <div className="flex flex-col items-center md:items-start">
+            <div className="">100+</div>
+            <div className="text-base font-normal">clients</div>
+          </div>
+        </div>
+        <div className="col-span-5 flex h-24 items-center justify-center bg-sapphire p-4 md:col-span-1">
+          <div className="flex flex-col items-center md:items-start">
+            <div className="">1200+</div>
+            <div className="text-base font-normal">sessions</div>
+          </div>
+        </div>
+      </div>
+      <div className="py-8 text-center text-3xl font-semibold text-gray-800">
+        Certifications
+      </div>
+    </>
   );
 }
 

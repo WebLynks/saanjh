@@ -127,7 +127,10 @@ function Header() {
               Services
             </button>
             {isMobileDropdownOpen && (
-              <div className="flex flex-col pl-4">
+              <div
+                className="flex flex-col pl-4"
+                onClick={toggleMobileDropdown}
+              >
                 <Link
                   to="/services/individual-therapy"
                   className="block p-2 text-sm text-gray-700 hover:bg-gray-100"
