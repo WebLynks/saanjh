@@ -15,6 +15,9 @@ export default {
         sapphire: "#1974F9",
         mango: "#FEB715",
       },
+      backgroundImage: {
+        "individual-therapy": `url('/individual_therapy_header.png')`,
+      },
     },
   },
   safelist: [

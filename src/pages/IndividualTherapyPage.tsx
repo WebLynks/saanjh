@@ -1,4 +1,4 @@
-import individualTherapyHeader from "../assets/images/individual_therapy_header.png";
+import individualTherapyHeader from "/individual_therapy_header.png";
 import individualTherapyRuchi from "../assets/images/IndividualTherapyRuchi.png";
 import individualTherapyLine from "../assets/images/IndividualTherapyLine.png";
 import flameUniversityLogo from "../assets/images/FLAME-University-Logo.png";
@@ -8,12 +8,11 @@ import saanjhLogo from "../assets/images/saanjh_logo.png";
 function IndividualTherapyPage() {
   return (
     <>
-      <div className="px-[5dvw] py-16">
+      <div className="py-16">
         <div
-          style={{ backgroundImage: `url(${individualTherapyHeader})` }}
-          className="bg-contain bg-right bg-no-repeat px-[5dvw]"
+          className={`md:bg-individual-therapy bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] lg:bg-[45dvw_0px]`}
         >
-          <div className="w-12/12 flex flex-col items-start justify-center gap-8 md:w-8/12">
+          <div className="w-12/12 flex flex-col items-start justify-center gap-8 md:w-7/12">
             <div className="text-3xl font-semibold text-gray-800">
               On Therapy
             </div>
@@ -22,29 +21,34 @@ function IndividualTherapyPage() {
               navigate life’s challenges and be authentically yourself
             </div>
             <div>
-              <div>
-                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <div className="flex items-start gap-4">
+                <span className="mt-1.5 inline-block size-3 flex-shrink-0 rounded-full bg-sunset"></span>
                 <span>Self-exploration</span>
               </div>
-              <div>
-                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <div className="flex items-start gap-4">
+                <span className="mt-1.5 inline-block size-3 flex-shrink-0 rounded-full bg-sunset"></span>
                 <span>Identifying patterns</span>
               </div>
-              <div>
-                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <div className="flex items-start gap-4">
+                <span className="mt-1.5 inline-block size-3 flex-shrink-0 rounded-full bg-sunset"></span>
                 <span>Learning coping strategies</span>
               </div>
-              <div>
-                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <div className="flex items-start gap-4">
+                <span className="mt-1.5 inline-block size-3 flex-shrink-0 rounded-full bg-sunset"></span>
                 <span>Navigating through life’s challenges</span>
               </div>
-              <div>
-                <span className="mr-4 inline-block h-3 w-3 rounded-full bg-sunset"></span>
+              <div className="flex items-start gap-4">
+                <span className="mt-1.5 inline-block size-3 flex-shrink-0 rounded-full bg-sunset"></span>
                 <span>Finding a non-judgmental and supportive space</span>
               </div>
             </div>
           </div>
         </div>
+        <img
+          className="mt-8 h-auto w-full object-contain md:hidden"
+          src={individualTherapyHeader}
+          alt="Individual Therapy Header"
+        />
       </div>
       <div className="border-y">
         <div className="grid grid-cols-2">
@@ -140,6 +144,85 @@ function IndividualTherapyPage() {
       </div>
       <div className="py-8 text-center text-3xl font-semibold text-gray-800">
         Certifications
+      </div>
+      <div className="flex flex-col gap-0 bg-pink-100 px-[10dvw] py-10">
+        <div className="flex gap-8">
+          <div className="mt-3 flex flex-col items-center justify-center">
+            <div className="size-3 rounded-full bg-mango"></div>
+            <div className="h-full w-0.5 bg-sunset"></div>
+          </div>
+          <div>
+            <div className="mb-4 text-3xl font-semibold text-sunset">2021</div>
+            <div className="text-lg font-semibold text-sunset">
+              Suicide First Aid: Understanding Suicide Intervention,
+            </div>
+            <div className="pb-8">The City & Guilds of London Institute</div>
+          </div>
+        </div>
+        <div className="flex gap-8">
+          <div className="flex flex-col items-center justify-center">
+            <div className="h-5 w-0.5 bg-sunset"></div>
+            <div className="size-3 rounded-full bg-mango"></div>
+            <div className="h-full w-0.5 bg-sunset"></div>
+          </div>
+          <div>
+            <div className="mb-4 text-3xl font-semibold text-sunset">2023</div>
+            <div className="text-lg font-semibold text-sunset">
+              South Asian Diploma in Narrative Practices,
+            </div>
+            <div className="pb-8">Narrative Practices India</div>
+            <div className="text-lg font-semibold text-sunset">
+              Mindfulness Based Symptom Management,
+            </div>
+            <div className="pb-8">Pause for Perspective</div>
+          </div>
+        </div>
+
+        <div className="flex gap-8">
+          <div className="flex flex-col items-center justify-center">
+            <div className="h-5 w-0.5 bg-sunset"></div>
+            <div className="size-3 rounded-full bg-mango"></div>
+            <div className="h-full w-0.5 bg-sunset"></div>
+          </div>
+          <div>
+            <div className="mb-4 text-3xl font-semibold text-sunset">2024</div>
+            <div className="text-lg font-semibold text-sunset">
+              Internal Family Systems Therapy,
+            </div>
+            <div className="pb-8">Thinking Heart USA</div>
+            <div className="text-lg font-semibold text-sunset">
+              Queer Affirmative Counselling Practice,
+            </div>
+            <div className="pb-8">Pause for Perspective</div>
+            <div className="pb-8 text-lg font-semibold text-sunset">
+              Neurodivergence/Disability Justice/MAD Studies
+            </div>
+          </div>
+        </div>
+        <div className="ms-[5px] h-0.5 w-full bg-sunset"></div>
+      </div>
+      <div className="py-8 text-center text-3xl font-semibold text-gray-800">
+        Process
+      </div>
+      <div className="grid grid-cols-3 gap-1">
+        <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-semibold text-sunset">
+            1.
+          </div>
+          <div className="font-semibold text-white">Reach Out</div>
+        </div>
+        <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-semibold text-sunset">
+            2.
+          </div>
+          <div className="font-semibold text-white">Fill Intake Form</div>
+        </div>
+        <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-semibold text-sunset">
+            3.
+          </div>
+          <div className="font-semibold text-white">Schedule a Session</div>
+        </div>
       </div>
     </>
   );
