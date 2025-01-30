@@ -70,7 +70,7 @@ function AboutUsPage() {
       </div>
 
       <div className="px-[10dvw] py-16 sm:max-md:px-[15dvw]">
-        <div className="grid grid-cols-3 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-3 gap-x-8 gap-y-20">
           {founders.map((founder) => (
             <FounderCard key={founder.name} {...founder} />
           ))}

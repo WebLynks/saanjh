@@ -55,12 +55,14 @@ function ContactPage() {
         </div>
       </div>
       <div
-        className="hidden items-center justify-center bg-cover bg-no-repeat md:col-span-5 md:flex"
+        className="col-span-12 flex h-96 items-center justify-center bg-cover bg-no-repeat md:col-span-5 md:h-auto"
         style={{
           backgroundImage: `url(${backgroundImgSrc})`,
         }}
       >
-        <img className="h-auto w-2/5" src={logo} alt="Logo" />
+        <div className="h-auto w-2/5 bg-white opacity-50">
+          <img className="" src={logo} alt="Logo" />
+        </div>
       </div>
     </div>
   );

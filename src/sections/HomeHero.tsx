@@ -12,7 +12,7 @@ function HomeHero() {
           loop
           muted
         />
-        <div className="relative z-20 text-3xl font-bold text-white md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+        <div className="relative z-20 text-3xl font-bold tracking-tighter text-white md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
           Welcome to Saanjh!
         </div>
         <ArrowDownCircleIcon className="absolute bottom-8 size-20 animate-bounce text-white" />

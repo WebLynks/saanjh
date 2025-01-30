@@ -1,4 +1,5 @@
-import Events from "../sections/Events";
+import EventCardLandscape from "../components/EventCardLandscape";
+import pearlBackgroundImgSrc from "../assets/images/pearl_background.png";
 import HomeHero from "../sections/HomeHero";
 import Services from "../sections/Services";
 import Story from "../sections/Story";
@@ -25,7 +26,19 @@ function Home() {
         </div>
       </div>
       <Services />
-      <Events />
+      <div>
+        <div
+          className="relative bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${pearlBackgroundImgSrc})`,
+          }}
+        >
+          <div className="px-[10dvw] pb-8 pt-16">
+            <div className="text-4xl font-semibold">Upcoming Event</div>
+            <EventCardLandscape isRegisterOption={false} />
+          </div>
+        </div>
+      </div>
       <Team />
       <Updates />
     </>

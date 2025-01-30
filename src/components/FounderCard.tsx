@@ -12,9 +12,9 @@ function FounderCard({ name, detail, imageName, bgColor }: Founder) {
 
   return (
     <div className="col-span-3 md:col-span-1">
-      <div className="relative h-[33rem] rounded-b-2xl shadow-lg">
+      <div className="h-[34rem] rounded-b-2xl shadow-lg sm:max-md:h-[44rem] md:max-lg:h-[36rem] lg:h-[38rem] xl:h-[46rem]">
         <div
-          className={`flex h-[17rem] justify-center rounded-t-2xl bg-${bgColor} bg-opacity-75`}
+          className={`relative flex h-[20rem] justify-center rounded-t-2xl sm:max-md:h-[30rem] bg-${bgColor} bg-opacity-75 md:max-lg:h-[18rem] xl:h-[30rem]`}
         >
           {loading ? (
             `loading...`
@@ -22,11 +22,11 @@ function FounderCard({ name, detail, imageName, bgColor }: Founder) {
             <img
               src={image}
               alt={name}
-              className="absolute -top-[2rem] h-[19rem] w-full object-fill"
+              className="absolute bottom-0 h-[22rem] w-11/12 object-fill sm:max-md:h-[32rem] md:max-lg:h-[20rem] xl:h-[32rem]"
             />
           )}
         </div>
-        <div className="flex h-[16rem] flex-col items-center justify-center gap-4 px-2 py-4 text-center">
+        <div className="flex h-[14rem] flex-col items-center justify-center gap-4 px-2 py-4 text-center md:h-[18rem] xl:h-[16rem]">
           <div className="text-xl font-semibold md:max-lg:text-lg">{name}</div>
           <hr className={`w-2/5 border-2 border-${bgColor}`} />
           <div className="text-center md:max-lg:text-sm">{detail}</div>
