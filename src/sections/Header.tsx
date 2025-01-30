@@ -41,7 +41,7 @@ function Header() {
           alt="Saanjh"
         />
         <div className="hidden md:block">
-          <nav className="space-x-4 rounded-full bg-pink-50 px-4 py-1 text-sunset lg:space-x-8 lg:px-8">
+          <nav className="space-x-4 rounded-full bg-pink-50 px-4 py-1 uppercase text-sunset lg:space-x-8 lg:px-8">
             <Link to="/" onClick={toggleMenu}>
               Home
             </Link>
@@ -55,7 +55,7 @@ function Header() {
               About Us
             </Link> */}
             <div className="group relative inline-block">
-              <button className="focus:outline-none">Services</button>
+              <button className="uppercase focus:outline-none">Services</button>
               <div className="absolute right-0 mt-2 w-48 rounded-md bg-pink-50 opacity-0 shadow-lg ring-1 ring-black ring-opacity-5 transition-opacity duration-300 group-hover:opacity-100">
                 <div
                   className="py-1"
@@ -84,7 +84,7 @@ function Header() {
             </Link>
           </nav>
         </div>
-        <div className="hidden rounded-full bg-pink-50 px-2 py-1 text-sunset md:block">
+        <div className="hidden rounded-full bg-pink-50 px-2 py-1 uppercase text-sunset md:block">
           <Link to="/" onClick={toggleMenu}>
             Resources
           </Link>
@@ -105,7 +105,7 @@ function Header() {
       </div>
       {isOpen && (
         <nav
-          className={`flex flex-col gap-4 bg-pink-50 px-[10dvw] py-4 font-medium text-sunset transition-all duration-500 md:hidden ${isVisible ? "translate-x-0" : "-translate-x-full"}`}
+          className={`flex flex-col gap-4 bg-pink-50 px-[10dvw] py-4 font-medium text-sunset transition-all duration-500 md:hidden ${isVisible ? "translate-x-0" : "-translate-x-full"} uppercase`}
         >
           <Link to="/" onClick={toggleMenu}>
             Home
@@ -122,7 +122,7 @@ function Header() {
           <div className="relative">
             <button
               onClick={toggleMobileDropdown}
-              className="focus:outline-none"
+              className="uppercase focus:outline-none"
             >
               Services
             </button>
