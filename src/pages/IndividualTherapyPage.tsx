@@ -10,7 +10,7 @@ function IndividualTherapyPage() {
     <>
       <div className="py-16">
         <div
-          className={`md:bg-individual-therapy bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] lg:bg-[45dvw_0px]`}
+          className={`bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] md:bg-individual-therapy lg:bg-[45dvw_0px] xl:bg-[50dvw_0px] 2xl:bg-[55dvw_0px]`}
         >
           <div className="w-12/12 flex flex-col items-start justify-center gap-8 md:w-7/12">
             <div className="text-3xl font-semibold text-gray-800">
