@@ -56,7 +56,7 @@ function Header() {
             </Link> */}
             <div className="group relative inline-block">
               <button className="uppercase focus:outline-none">Services</button>
-              <div className="absolute right-0 mt-2 w-48 rounded-md bg-pink-50 opacity-0 shadow-lg ring-1 ring-black ring-opacity-5 transition-opacity duration-300 group-hover:opacity-100">
+              <div className="absolute right-0 mt-2 w-56 rounded-md bg-pink-50 opacity-0 shadow-lg ring-1 ring-black ring-opacity-5 transition-opacity duration-300 group-hover:opacity-100">
                 <div
                   className="py-1"
                   role="menu"
@@ -70,10 +70,10 @@ function Header() {
                     Individual Therapy
                   </Link>
                   <Link
-                    to="/services/individual-therapy"
+                    to="/services/workplace-wellbeing"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
-                    Individual Therapy
+                    Workplace Wellbeing
                   </Link>
                 </div>
                 <div className="absolute -top-2 right-0 h-0 w-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-pink-50"></div>
@@ -139,11 +139,11 @@ function Header() {
                   Individual Therapy
                 </Link>
                 <Link
-                  to="/services/individual-therapy"
+                  to="/services/workplace-wellbeing"
                   className="block p-2 text-sm text-gray-700 hover:bg-gray-100"
                   onClick={toggleMenu}
                 >
-                  Individual Therapy
+                  Workplace Wellbeing
                 </Link>
               </div>
             )}

@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop.tsx";
 import AboutUsPage from "./pages/AboutUsPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
 import IndividualTherapyPage from "./pages/IndividualTherapyPage.tsx";
+import WorkplaceWellbeingPage from "./pages/WorkplaceWellbeingPage.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -26,6 +27,10 @@ createRoot(document.getElementById("root")!).render(
               <Route
                 path="individual-therapy"
                 element={<IndividualTherapyPage />}
+              />
+              <Route
+                path="workplace-wellbeing"
+                element={<WorkplaceWellbeingPage />}
               />
             </Route>
           </Route>
