@@ -6,10 +6,10 @@ function Story() {
       <div className="grid grid-cols-5 gap-4 bg-purple-100 px-[10dvw] py-16">
         <div className="col-span-5 md:col-span-3">
           <div className="space-y-8">
-            <div className="text-4xl font-semibold text-gray-800">
+            <div className="font-sans-black text-4xl text-gray-800">
               Story of Saanjh
             </div>
-            <div className="text-2xl text-gray-800">
+            <div className="font-sans-black text-2xl text-gray-800">
               Evening or dusk. The time when the sun starts to set and the sky
               is filled with a myriad of colours
             </div>

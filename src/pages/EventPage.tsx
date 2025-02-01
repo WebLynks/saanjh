@@ -23,16 +23,18 @@ function Event() {
           }}
         >
           <div className="px-[10dvw] pb-8 pt-16">
-            <div className="text-4xl font-semibold">Upcoming Event</div>
+            <div className="font-sans-black text-4xl">Upcoming Event</div>
             <EventCardLandscape />
           </div>
         </div>
       </div>
       <div className="space-y-16 px-[10dvw] py-16">
-        <div className="text-center text-3xl font-semibold">Group Sessions</div>
+        <div className="font-sans-black text-center text-3xl">
+          Group Sessions
+        </div>
         <div className="flex flex-col gap-16 md:flex-row">
           <div className="w-full space-y-8 md:w-7/12">
-            <div className="text-xl font-semibold">Sharing Circle</div>
+            <div className="font-sans-black text-xl">Sharing Circle</div>
             <div>
               A sharing circle is a space co-created by the participants with
               the intention of witnessing people’s stories to find connection
@@ -51,7 +53,7 @@ function Event() {
         </div>
         <div className="flex flex-col gap-16 md:flex-row">
           <div className="w-full space-y-8 md:w-7/12">
-            <div className="text-xl font-semibold">Sharing Group</div>
+            <div className="font-sans-black text-xl">Sharing Group</div>
             <div>
               A support group is a space for people going through similar
               concerns to share their experience and support one another.

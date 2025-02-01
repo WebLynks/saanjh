@@ -3,7 +3,7 @@ import videoSrc from "../assets/videos/saanjh-herosection.mp4";
 
 function HomeHero() {
   return (
-    <div className="w-full">
+    <div className="font-sans-black w-full">
       <div className="relative flex h-[90dvh] items-center justify-center bg-gray-400">
         <video
           className="absolute inset-0 h-full w-full object-cover"
@@ -12,7 +12,7 @@ function HomeHero() {
           loop
           muted
         />
-        <div className="relative z-20 text-3xl font-bold tracking-tighter text-white md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+        <div className="relative z-20 text-4xl tracking-tighter text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-9xl">
           Welcome to Saanjh!
         </div>
         <ArrowDownCircleIcon className="absolute bottom-8 size-20 animate-bounce text-white" />

@@ -27,13 +27,13 @@ function EventCard({
         </div>
         <div className="flex flex-col gap-8 bg-white p-4 opacity-80">
           <div className="flex flex-wrap justify-between">
-            <div className="font-semibold">
+            <div className="font-sans-black">
               <div className="">{name}</div>
               <div className="text-xs">{date}</div>
             </div>
-            <div className="font-semibold">{amount}</div>
+            <div className="font-sans-black">{amount}</div>
           </div>
-          <div className="flex justify-between text-xs font-semibold">
+          <div className="font-sans-black flex justify-between text-xs">
             <div className="">{`Slots: ${numberOfSlots} Seats`}</div>
             <div className="">{`Time: ${timing}`}</div>
           </div>

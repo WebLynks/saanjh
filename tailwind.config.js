@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Verdana", ...defaultTheme.fontFamily.sans],
+        "sans-black": ["ProductSansBlack", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         iris: "#CB89DB",

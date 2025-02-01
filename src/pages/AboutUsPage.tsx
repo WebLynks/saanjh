@@ -45,7 +45,7 @@ function AboutUsPage() {
         <div className="px-[10dvw] py-12">
           <div className="flex flex-col gap-8 md:flex-row md:gap-0">
             <div className="w-12/12 flex grow justify-start md:w-4/12 md:grow-0">
-              <div className="flex flex-col items-start justify-center text-5xl font-semibold">
+              <div className="font-sans-black flex flex-col items-start justify-center text-5xl">
                 <div>Our</div> <div>Founders</div>
               </div>
             </div>
@@ -79,11 +79,11 @@ function AboutUsPage() {
 
       <div className="bg-pink-100 px-[10dvw] py-16 text-sunset">
         <div className="flex flex-col gap-16 md:flex-row md:gap-32">
-          <div className="flex flex-col justify-center text-6xl font-semibold">
+          <div className="font-sans-black flex flex-col justify-center text-6xl">
             <div>Our</div>
             <div>Mission</div>
           </div>
-          <div className="font-semibold">
+          <div className="font-sans-black">
             At Saanjh, we understand that mental health goes beyond just the
             individual. We aim to inform our services by the larger context of
             an individual, the intersections of their identity, and provide
@@ -98,7 +98,7 @@ function AboutUsPage() {
         </div>
       </div>
 
-      <div className="relative flex text-xs text-white sm:text-lg sm:font-semibold md:text-xl lg:text-2xl">
+      <div className="sm:font-sans-black relative flex text-xs text-white sm:text-lg md:text-xl lg:text-2xl">
         <div className="flex h-96 w-1/4 items-start justify-center text-clip bg-mango px-2 py-16">
           Inclusivity
         </div>
@@ -122,7 +122,7 @@ function AboutUsPage() {
           alt="Orange Background"
           className="size-full object-fill"
         />
-        <div className="absolute left-1/2 top-1/2 flex w-4/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center text-sm font-semibold text-white sm:text-base">
+        <div className="font-sans-black absolute left-1/2 top-1/2 flex w-4/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center text-sm text-white sm:text-base">
           <div>
             At the core of this initiative is the belief that mental health is
             not just about coping with mental illnesses but also about

@@ -19,7 +19,7 @@ function Footer() {
         <div className="grid grid-cols-12 gap-y-8 py-8 pe-[5dvw] ps-[10dvw] md:divide-x md:ps-0">
           <div className="col-span-12 flex md:col-start-3 md:col-end-7 md:justify-center md:pe-4">
             <div className="space-y-6">
-              <div className="font-bold">Services</div>
+              <div className="font-sans-black text-lg">Services</div>
               <div className="space-y-2 text-gray-400">
                 <div>Group Sessions</div>
                 <div>Individual Session</div>
@@ -29,7 +29,7 @@ function Footer() {
           </div>
           <div className="col-span-12 flex md:col-start-7 md:col-end-9 md:justify-center md:border-gray-400">
             <div className="space-y-6">
-              <div className="font-bold">Explore</div>
+              <div className="font-sans-black text-lg">Explore</div>
               <div className="space-y-2 text-gray-400">
                 <div>
                   <Link to={"/"}>Home</Link>
@@ -48,7 +48,7 @@ function Footer() {
           </div>
           <div className="col-span-12 flex md:col-start-9 md:col-end-13 md:justify-center md:border-gray-400 md:ps-8">
             <div className="space-y-6">
-              <div className="font-bold">Follow Us</div>
+              <div className="font-sans-black text-lg">Follow Us</div>
               <div className="space-y-2 text-gray-400">
                 <div className="flex items-center gap-2">
                   <div
@@ -85,7 +85,7 @@ function Footer() {
           <div className="w-2/12"></div>
           <div className="flex w-4/12 flex-wrap justify-end">
             <div>Give us a call at&nbsp;</div>
-            <div className="font-medium italic">+91 93733 24053</div>
+            <div className="text-sm font-medium italic">+91 93733 24053</div>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ function Footer() {
         className="h-auto w-full bg-cover"
         style={{ backgroundImage: `url(${footerBackgroundImage})` }}
       >
-        <div className="flex flex-col items-start justify-between gap-4 px-[10dvw] py-2 text-sm font-semibold md:flex-row md:items-center md:justify-between">
+        <div className="font-sans-black flex flex-col items-start justify-between gap-4 px-[10dvw] py-2 text-sm md:flex-row md:items-center md:justify-between">
           <div>
             Copyright<span className="align-super text-[0.75rem]">&copy;</span>{" "}
             by Saanjh - All rights reserved

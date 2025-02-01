@@ -29,7 +29,7 @@ function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-10">
+    <header className="font-sans-black sticky top-0 z-10">
       <div
         className="flex h-20 w-full items-center justify-between bg-cover px-[5vw]"
         style={{ backgroundImage: `url(${headerBackgroundImage})` }}

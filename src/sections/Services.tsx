@@ -3,7 +3,7 @@ import ServiceCard from "../components/ServiceCard";
 function Services() {
   return (
     <div className="px-[10dvw] py-16">
-      <div className="text-4xl font-semibold">Our Services</div>
+      <div className="font-sans-black text-4xl">Our Services</div>
       <div className="grid grid-cols-3 gap-8 pt-10">
         <ServiceCard
           name="Corporate Workshops"

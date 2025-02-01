@@ -31,7 +31,7 @@ function TeamCard({
         )}
       </div>
       <div className="flex flex-col flex-wrap gap-4">
-        <div className="font-semibold text-orange-600">
+        <div className="font-sans-black text-orange-600">
           <div>{`${name} (${pronoun})`}</div>
           <div className="text-xs">{position}</div>
         </div>

@@ -27,7 +27,9 @@ function FounderCard({ name, detail, imageName, bgColor }: Founder) {
           )}
         </div>
         <div className="flex h-[14rem] flex-col items-center justify-center gap-4 px-2 py-4 text-center md:h-[18rem] xl:h-[16rem]">
-          <div className="text-xl font-semibold md:max-lg:text-lg">{name}</div>
+          <div className="font-sans-black text-xl md:max-lg:text-lg">
+            {name}
+          </div>
           <hr className={`w-2/5 border-2 border-${bgColor}`} />
           <div className="text-center md:max-lg:text-sm">{detail}</div>
           <div

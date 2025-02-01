@@ -11,7 +11,7 @@ function Home() {
     <>
       <HomeHero />
       <Story />
-      <div className="grid grid-cols-12 text-xl font-semibold text-white lg:text-2xl">
+      <div className="font-sans-black grid grid-cols-12 text-xl text-white lg:text-2xl">
         <div className="col-span-12 flex h-24 items-center justify-center bg-mango p-4 md:col-span-3">
           Inclusivity
         </div>
@@ -34,7 +34,7 @@ function Home() {
           }}
         >
           <div className="px-[10dvw] pb-8 pt-16">
-            <div className="text-4xl font-semibold">Upcoming Event</div>
+            <div className="font-sans-black text-4xl">Upcoming Event</div>
             <EventCardLandscape isRegisterOption={false} />
           </div>
         </div>

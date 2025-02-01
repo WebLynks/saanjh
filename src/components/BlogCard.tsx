@@ -25,10 +25,10 @@ function BlogCard({
           />
         )}
         <div className="flex w-full flex-wrap items-center justify-between sm:max-md:h-16 md:max-lg:h-12">
-          <div className="font-semibold">{category}</div>
+          <div className="font-sans-black">{category}</div>
           <div className="text-xs">{formatDate(date)}</div>
         </div>
-        <div className="font-semibold sm:max-md:h-24 md:max-lg:h-16 lg:h-12">
+        <div className="font-sans-black sm:max-md:h-24 md:max-lg:h-16 lg:h-12">
           {title}
         </div>
         <div className="line-clamp-4 h-16 text-sm">{summary}</div>
