@@ -9,7 +9,7 @@ import sacredHearts from "../assets/images/sacredhearts.png";
 function Footer() {
   return (
     <footer className="text-white">
-      <div className="relative bg-gray-900">
+      <div className="relative bg-[#1E1D1B] py-8">
         <img
           src={logo}
           alt="Saanjh"
@@ -19,7 +19,9 @@ function Footer() {
         <div className="grid grid-cols-12 gap-y-8 py-8 pe-[5dvw] ps-[10dvw] md:divide-x md:ps-0">
           <div className="col-span-12 flex md:col-start-3 md:col-end-7 md:justify-center md:pe-4">
             <div className="space-y-6">
-              <div className="font-sans-black text-lg">Services</div>
+              <div className="font-sans-black text-lg tracking-tighter text-white opacity-90">
+                Services
+              </div>
               <div className="space-y-2 text-gray-400">
                 <div>Group Sessions</div>
                 <div>Individual Session</div>
@@ -29,7 +31,9 @@ function Footer() {
           </div>
           <div className="col-span-12 flex md:col-start-7 md:col-end-9 md:justify-center md:border-gray-400">
             <div className="space-y-6">
-              <div className="font-sans-black text-lg">Explore</div>
+              <div className="font-sans-black text-lg tracking-tighter text-white opacity-90">
+                Explore
+              </div>
               <div className="space-y-2 text-gray-400">
                 <div>
                   <Link to={"/"}>Home</Link>
@@ -48,7 +52,9 @@ function Footer() {
           </div>
           <div className="col-span-12 flex md:col-start-9 md:col-end-13 md:justify-center md:border-gray-400 md:ps-8">
             <div className="space-y-6">
-              <div className="font-sans-black text-lg">Follow Us</div>
+              <div className="font-sans-black text-lg tracking-tighter text-white opacity-90">
+                Follow Us
+              </div>
               <div className="space-y-2 text-gray-400">
                 <div className="flex items-center gap-2">
                   <div
@@ -94,7 +100,7 @@ function Footer() {
         className="h-auto w-full bg-cover"
         style={{ backgroundImage: `url(${footerBackgroundImage})` }}
       >
-        <div className="font-sans-black flex flex-col items-start justify-between gap-4 px-[10dvw] py-2 text-sm md:flex-row md:items-center md:justify-between">
+        <div className="font-sans-black flex flex-col items-start justify-between gap-4 px-[10dvw] py-2 text-sm tracking-tighter text-white opacity-90 md:flex-row md:items-center md:justify-between">
           <div>
             Copyright<span className="align-super text-[0.75rem]">&copy;</span>{" "}
             by Saanjh - All rights reserved

@@ -10,7 +10,9 @@ function Events({ heading = "Events" }) {
       }}
     >
       <div className="px-[10dvw] py-16">
-        <div className="font-sans-black text-4xl">{heading}</div>
+        <div className="font-sans-black text-4xl tracking-tighter text-gray-900 opacity-90">
+          {heading}
+        </div>
         <div className="grid grid-cols-3 gap-8 pt-10">
           <EventCard />
           <EventCard />

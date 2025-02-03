@@ -3,7 +3,9 @@ import TeamCard from "../components/TeamCard";
 function Team() {
   return (
     <div className="px-[10dvw] py-16">
-      <div className="font-sans-black text-4xl">Meet Our Team</div>
+      <div className="font-sans-black text-4xl tracking-tighter">
+        Meet Our Team
+      </div>
       <div className="flex flex-col gap-16 px-4 pt-10">
         <TeamCard
           name="Ruchi Bhutada"

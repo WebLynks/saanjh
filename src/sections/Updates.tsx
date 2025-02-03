@@ -4,7 +4,9 @@ function Updates() {
   return (
     <>
       <div className="px-[10dvw] py-16">
-        <div className="font-sans-black text-4xl">The Latest From Saanjh</div>
+        <div className="font-sans-black text-4xl tracking-tighter text-gray-900 opacity-90">
+          The Latest From Saanjh
+        </div>
         <div className="grid grid-cols-3 gap-4 pt-10">
           <UpdateCard
             date="8th March, 2024"

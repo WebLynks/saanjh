@@ -22,7 +22,7 @@ function TeamCard({
   return (
     <div className="flex flex-col items-start justify-normal gap-12 sm:flex-row sm:items-center">
       <div
-        className={`size-32 rounded-xl bg-${bgColor} flex shrink-0 items-end justify-center`}
+        className={`size-40 rounded-xl bg-${bgColor} flex shrink-0 items-end justify-center`}
       >
         {loading ? (
           `loading...`
@@ -31,11 +31,11 @@ function TeamCard({
         )}
       </div>
       <div className="flex flex-col flex-wrap gap-4">
-        <div className="font-sans-black text-orange-600">
-          <div>{`${name} (${pronoun})`}</div>
-          <div className="text-xs">{position}</div>
+        <div className="font-sans-black tracking-tighter text-orange-600 opacity-90">
+          <div className="text-2xl">{`${name} (${pronoun})`}</div>
+          <div className="">{position}</div>
         </div>
-        <div className="text-sm">{description}</div>
+        <div className="">{description}</div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ function IndividualTherapyPage() {
           className={`bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] md:bg-individual-therapy lg:bg-[45dvw_0px] xl:bg-[50dvw_0px] 2xl:bg-[55dvw_0px]`}
         >
           <div className="w-12/12 flex flex-col items-start justify-center gap-8 md:w-7/12">
-            <div className="font-sans-black text-3xl text-gray-800">
+            <div className="font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
               On Therapy
             </div>
             <div>
@@ -61,10 +61,10 @@ function IndividualTherapyPage() {
           </div>
           <div className="col-span-2 md:col-span-1">
             <div className="flex h-full flex-col justify-center gap-4 px-[10dvw] py-16 md:px-[5dvw]">
-              <div className="font-sans-black text-2xl text-gray-800 lg:text-3xl">
+              <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 lg:text-3xl">
                 Meet Our Therapist
               </div>
-              <div className="font-sans-black italic text-mango">
+              <div className="font-sans-black italic tracking-tighter text-gray-900 text-mango opacity-90">
                 Ruchi Bhutada (she/her)
               </div>
               <div className="text-base">
@@ -85,7 +85,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black py-8 text-center text-3xl text-gray-800">
+      <div className="font-sans-black py-8 text-center text-3xl tracking-tighter text-gray-900 opacity-90">
         Qualifications
       </div>
       <div className="flex flex-col items-center justify-evenly gap-8 bg-sky-200 py-16 md:flex-row">
@@ -109,7 +109,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black grid grid-cols-5 text-xl text-white lg:text-2xl">
+      <div className="font-sans-black grid grid-cols-5 text-xl tracking-tighter text-white opacity-90 lg:text-2xl">
         <div className="col-span-5 flex h-24 items-center justify-center bg-mango p-4 md:col-span-1">
           <div className="flex flex-col items-center md:items-start">
             <div className="">1000+</div>
@@ -142,7 +142,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black py-8 text-center text-3xl text-gray-800">
+      <div className="font-sans-black py-8 text-center text-3xl tracking-tighter text-gray-900 opacity-90">
         Certifications
       </div>
       <div className="flex flex-col gap-0 bg-pink-100 px-[10dvw] py-10">
@@ -152,10 +152,10 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="font-sans-black mb-4 text-3xl text-sunset">
+            <div className="font-sans-black mb-4 text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
               2021
             </div>
-            <div className="font-sans-black text-lg text-sunset">
+            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               Suicide First Aid: Understanding Suicide Intervention,
             </div>
             <div className="pb-8">The City & Guilds of London Institute</div>
@@ -168,14 +168,14 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="font-sans-black mb-4 text-3xl text-sunset">
+            <div className="font-sans-black mb-4 text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
               2023
             </div>
-            <div className="font-sans-black text-lg text-sunset">
+            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               South Asian Diploma in Narrative Practices,
             </div>
             <div className="pb-8">Narrative Practices India</div>
-            <div className="font-sans-black text-lg text-sunset">
+            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               Mindfulness Based Symptom Management,
             </div>
             <div className="pb-8">Pause for Perspective</div>
@@ -189,45 +189,51 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="font-sans-black mb-4 text-3xl text-sunset">
+            <div className="font-sans-black mb-4 text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
               2024
             </div>
-            <div className="font-sans-black text-lg text-sunset">
+            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               Internal Family Systems Therapy,
             </div>
             <div className="pb-8">Thinking Heart USA</div>
-            <div className="font-sans-black text-lg text-sunset">
+            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               Queer Affirmative Counselling Practice,
             </div>
             <div className="pb-8">Pause for Perspective</div>
-            <div className="font-sans-black pb-8 text-lg text-sunset">
+            <div className="font-sans-black pb-8 text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               Neurodivergence/Disability Justice/MAD Studies
             </div>
           </div>
         </div>
         <div className="ms-[5px] h-0.5 w-full bg-sunset"></div>
       </div>
-      <div className="font-sans-black py-8 text-center text-3xl text-gray-800">
+      <div className="font-sans-black py-8 text-center text-3xl tracking-tighter text-gray-900 opacity-90">
         Process
       </div>
       <div className="grid grid-cols-3 gap-1">
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white text-sunset">
+          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white tracking-tighter text-gray-900 text-sunset opacity-90">
             1.
           </div>
-          <div className="font-sans-black text-white">Reach Out</div>
+          <div className="font-sans-black tracking-tighter text-white opacity-90">
+            Reach Out
+          </div>
         </div>
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white text-sunset">
+          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white tracking-tighter text-gray-900 text-sunset opacity-90">
             2.
           </div>
-          <div className="font-sans-black text-white">Fill Intake Form</div>
+          <div className="font-sans-black tracking-tighter text-white opacity-90">
+            Fill Intake Form
+          </div>
         </div>
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white text-sunset">
+          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white tracking-tighter text-gray-900 text-sunset opacity-90">
             3.
           </div>
-          <div className="font-sans-black text-white">Schedule a Session</div>
+          <div className="font-sans-black tracking-tighter text-white opacity-90">
+            Schedule a Session
+          </div>
         </div>
       </div>
     </>

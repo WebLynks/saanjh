@@ -3,7 +3,7 @@ import videoSrc from "../assets/videos/saanjh-herosection.mp4";
 
 function HomeHero() {
   return (
-    <div className="font-sans-black w-full">
+    <div className="font-sans-black w-full tracking-tighter text-gray-900 opacity-90">
       <div className="relative flex h-[90dvh] items-center justify-center bg-gray-400">
         <video
           className="absolute inset-0 h-full w-full object-cover"

@@ -6,3 +6,7 @@
   font-family: "ProductSansBlack";
   src: url("../public/ProductSans-Black.ttf");
 }
+
+* {
+  letter-spacing: -0.025em;
+}

@@ -29,7 +29,7 @@ function Header() {
   };
 
   return (
-    <header className="font-sans-black sticky top-0 z-10">
+    <header className="font-sans-black sticky top-0 z-10 tracking-tighter text-gray-900 opacity-90">
       <div
         className="flex h-20 w-full items-center justify-between bg-cover px-[5vw]"
         style={{ backgroundImage: `url(${headerBackgroundImage})` }}
@@ -41,7 +41,7 @@ function Header() {
           alt="Saanjh"
         />
         <div className="hidden md:block">
-          <nav className="space-x-4 rounded-full bg-pink-50 px-4 py-1 uppercase text-sunset lg:space-x-8 lg:px-8">
+          <nav className="space-x-4 rounded-full bg-pink-50 px-3 py-2 text-sm uppercase text-sunset lg:space-x-8 lg:px-6">
             <Link to="/" onClick={toggleMenu}>
               Home
             </Link>
@@ -84,7 +84,7 @@ function Header() {
             </Link>
           </nav>
         </div>
-        <div className="hidden rounded-full bg-pink-50 px-2 py-1 uppercase text-sunset md:block">
+        <div className="hidden rounded-full bg-pink-50 px-3 py-2 text-sm uppercase text-sunset md:block">
           <Link to="/" onClick={toggleMenu}>
             Resources
           </Link>
