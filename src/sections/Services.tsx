@@ -11,16 +11,19 @@ function Services() {
           name="Corporate Workshops"
           imgName="corporate_transparent"
           bgColor="sapphire"
+          link="/services/workplace-wellbeing"
         />
         <ServiceCard
           name="Group Sessions"
           imgName="group_sessions_transparent"
           bgColor="mango"
+          link="/events"
         />
         <ServiceCard
           name="Individual Therapy"
           imgName="therapy_transparent"
           bgColor="iris"
+          link="/services/individual-therapy"
         />
       </div>
     </div>
