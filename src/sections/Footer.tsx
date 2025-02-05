@@ -22,10 +22,14 @@ function Footer() {
               <div className="font-sans-black text-lg tracking-tighter text-white opacity-90">
                 Services
               </div>
-              <div className="space-y-2 text-gray-400">
-                <div>Group Sessions</div>
-                <div>Individual Session</div>
-                <div>Corporate Workshop</div>
+              <div className="flex flex-col space-y-2 text-gray-400">
+                <Link to="/events">Group Sessions</Link>
+                <Link to="/services/individual-therapy">
+                  Individual Session
+                </Link>
+                <Link to="/services/workplace-wellbeing">
+                  Corporate Workshop
+                </Link>
               </div>
             </div>
           </div>
