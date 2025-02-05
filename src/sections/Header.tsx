@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router";
 import logo from "../assets/images/saanjh_new_logo_header.png";
 import headerBackgroundImage from "../assets/images/background_slice.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 function Header() {
@@ -9,6 +9,17 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
+
+  const handleScroll = () => {
+    console.log(window.scrollY);
+
+    if (window.scrollY <= 50) {
+      setIsAtTop(true);
+    } else {
+      setIsAtTop(false);
+    }
+  };
 
   const toggleMobileDropdown = () => {
     setIsMobileDropdownOpen(!isMobileDropdownOpen);
@@ -28,11 +39,20 @@ function Header() {
     }
   };
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="font-sans-black sticky top-0 z-10 tracking-tighter text-gray-900 opacity-90">
+    <header className="fixed top-0 z-10 w-full font-sans-black tracking-tighter text-gray-900 opacity-90">
       <div
-        className="flex h-20 w-full items-center justify-between bg-cover px-[5vw]"
-        style={{ backgroundImage: `url(${headerBackgroundImage})` }}
+        className={`fixed top-0 flex h-20 w-full items-center justify-between ${isAtTop ? "bg-transparent" : "bg-cover"} px-[5vw] transition-all duration-500 ease-in-out`}
+        style={{
+          backgroundImage: isAtTop ? "none" : `url(${headerBackgroundImage})`,
+        }}
       >
         <img
           onClick={handleLogoClick}
