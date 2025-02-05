@@ -100,13 +100,20 @@ function Footer() {
         className="h-auto w-full bg-cover"
         style={{ backgroundImage: `url(${footerBackgroundImage})` }}
       >
-        <div className="font-sans-black flex flex-col items-start justify-between gap-4 px-[10dvw] py-2 text-sm tracking-tighter text-white opacity-90 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col items-start justify-between gap-4 px-[10dvw] py-2 font-sans-black text-sm tracking-tighter text-white opacity-90 md:flex-row md:items-center md:justify-between">
           <div>
             Copyright<span className="align-super text-[0.75rem]">&copy;</span>{" "}
             by Saanjh - All rights reserved
           </div>
           <div>
-            Designed and Developed by <i>WebLynks</i>
+            Designed and Developed by{" "}
+            <a
+              href="https://gitanshugupta7.github.io/WebLyknsPortfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>WebLynks</i>
+            </a>
           </div>
         </div>
       </div>
