@@ -3,7 +3,7 @@ import TeamCard from "../components/TeamCard";
 function Team() {
   return (
     <div data-aos="slide-up" className="px-[10dvw] py-16">
-      <div className="font-sans-black text-4xl tracking-tighter">
+      <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
         Meet Our Team
       </div>
       <div className="flex flex-col gap-16 px-4 pt-10">

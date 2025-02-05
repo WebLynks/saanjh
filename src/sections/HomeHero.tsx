@@ -7,7 +7,7 @@ function HomeHero() {
       data-aos="slide-up"
       className="w-full font-sans-black tracking-tighter text-gray-900 opacity-90"
     >
-      <div className="relative flex h-[90dvh] items-center justify-center bg-gray-400">
+      <div className="relative flex h-[100dvh] items-center justify-center bg-gray-400">
         <video
           className="absolute inset-0 h-full w-full object-cover"
           src={videoSrc}
@@ -15,8 +15,10 @@ function HomeHero() {
           loop
           muted
         />
-        <div className="relative z-20 text-4xl tracking-tighter text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-9xl">
-          Welcome to Saanjh!
+        <div className="relative z-20 flex flex-col items-center justify-center text-7xl tracking-tighter text-white md:flex-row md:gap-4 lg:text-8xl 2xl:text-9xl">
+          <div>Welcome</div>
+          <div>to</div>
+          <div>Saanjh!</div>
         </div>
         <ArrowDownCircleIcon className="absolute bottom-8 size-20 animate-bounce text-white" />
       </div>

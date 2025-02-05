@@ -5,14 +5,16 @@ import bluebgwithcircles from "../assets/images/bluebgwithcircles.png";
 function WorkplaceWellbeingPage() {
   return (
     <>
-      <div className="font-sans-black flex flex-col items-center justify-center bg-sapphire px-[10dvw] py-20 tracking-tighter text-white opacity-90 md:py-24 lg:py-28">
+      <div className="flex flex-col items-center justify-center bg-sapphire px-[10dvw] pb-20 pt-28 font-sans-black tracking-tighter text-white opacity-90 md:pb-24 md:pt-32 lg:pb-36 lg:pt-44">
         <div className="">
-          <div className="text-xl md:text-2xl lg:text-3xl">Welcome To</div>
-          <div className="flex flex-wrap justify-between gap-2 text-5xl md:text-6xl lg:text-7xl">
+          <div className="text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+            Welcome To
+          </div>
+          <div className="flex flex-wrap justify-between gap-2 text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
             <div className="flex justify-start">Workplace</div>{" "}
             <div className="flex grow justify-end">Wellbeing</div>
           </div>
-          <div className="flex justify-end text-xl md:text-2xl lg:text-3xl">
+          <div className="flex justify-end text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Workshop
           </div>
         </div>
@@ -24,7 +26,7 @@ function WorkplaceWellbeingPage() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 bg-sky-200 pb-16">
-        <div className="font-sans-black flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 tracking-tighter text-gray-900 opacity-90">
+        <div className="flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="">
             <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire">
               1.
@@ -34,7 +36,7 @@ function WorkplaceWellbeingPage() {
             17% more likelihood of high performance
           </div>
         </div>
-        <div className="font-sans-black flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 tracking-tighter text-gray-900 opacity-90">
+        <div className="flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="">
             <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire">
               2.
@@ -44,7 +46,7 @@ function WorkplaceWellbeingPage() {
             29% increase in high collaborative behaviours
           </div>
         </div>
-        <div className="font-sans-black flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 tracking-tighter text-gray-900 opacity-90">
+        <div className="flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="">
             <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire">
               3.
@@ -55,7 +57,7 @@ function WorkplaceWellbeingPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black flex flex-col items-center justify-center py-16 tracking-tighter text-gray-900 opacity-90">
+      <div className="flex flex-col items-center justify-center py-16 font-sans-black tracking-tighter text-gray-900 opacity-90">
         <div className="text-2xl md:text-3xl">Our Process</div>
         <div className="md:text-lg">Your Path To Harmony</div>
         <img
@@ -64,7 +66,7 @@ function WorkplaceWellbeingPage() {
           alt="Process Image"
         />
       </div>
-      <div className="font-sans-black flex flex-col flex-wrap items-center justify-evenly gap-6 bg-sapphire p-4 tracking-tighter text-white opacity-90 md:flex-row">
+      <div className="flex flex-col flex-wrap items-center justify-evenly gap-6 bg-sapphire p-4 font-sans-black tracking-tighter text-white opacity-90 md:flex-row">
         <div className="flex items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
           <div>Grow Stronger</div>
@@ -86,7 +88,7 @@ function WorkplaceWellbeingPage() {
         <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90">
           Why Workplace Wellbeing?
         </div>
-        <div className="font-sans-black pb-4 text-sm tracking-tighter text-gray-900 text-sapphire opacity-90">
+        <div className="pb-4 font-sans-black text-sm tracking-tighter text-gray-900 text-sapphire opacity-90">
           Workplace wellbeing goes beyond just basic stress-management.
         </div>
         <div className="flex flex-col sm:flex-row">
@@ -118,7 +120,7 @@ function WorkplaceWellbeingPage() {
           alt="Blue Background"
           className="size-full object-fill"
         />
-        <div className="font-sans-black absolute left-1/2 top-1/2 flex w-3/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center text-sm tracking-tighter text-white opacity-90 sm:text-base">
+        <div className="absolute left-1/2 top-1/2 flex w-3/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center font-sans-black text-sm tracking-tighter text-white opacity-90 sm:text-base">
           <div>
             At Saanjh, we are focused on creating Workplace Wellbeing solutions
             that are aligned with the needs and concerns of your organization.

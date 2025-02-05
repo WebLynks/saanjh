@@ -8,19 +8,19 @@ import saanjhLogo from "../assets/images/saanjh_logo.png";
 function IndividualTherapyPage() {
   return (
     <>
-      <div className="pb-16 pt-28">
+      <div className="pb-24 pt-36">
         <div
-          className={`bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] md:bg-individual-therapy lg:bg-[45dvw_0px] xl:bg-[50dvw_0px] 2xl:bg-[55dvw_0px]`}
+          className={`bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] md:bg-individual-therapy lg:bg-[45dvw_0px] lg:max-xl:px-[5dvw] xl:bg-[50dvw_0px] 2xl:bg-[55dvw_0px]`}
         >
           <div className="w-12/12 flex flex-col items-start justify-center gap-8 md:w-7/12">
-            <div className="font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
+            <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90">
               On Therapy
             </div>
-            <div>
+            <div className="lg:text-lg xl:text-xl 2xl:text-2xl">
               The aim of therapy is to create a supportive space where you can
               navigate life’s challenges and be authentically yourself
             </div>
-            <div>
+            <div className="lg:text-lg xl:text-xl 2xl:text-2xl">
               <div className="flex items-start gap-4">
                 <span className="mt-1.5 inline-block size-3 flex-shrink-0 rounded-full bg-sunset"></span>
                 <span>Self-exploration</span>

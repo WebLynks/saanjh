@@ -13,18 +13,18 @@ function Home() {
       <Story />
       <div
         data-aos="slide-up"
-        className="grid grid-cols-12 font-sans-black text-2xl tracking-tighter text-white opacity-90"
+        className="grid grid-cols-12 font-sans-black text-3xl tracking-tighter text-white opacity-90 sm:text-4xl md:text-3xl xl:text-4xl"
       >
-        <div className="col-span-12 flex h-28 items-center justify-center bg-mango p-4 md:col-span-3">
+        <div className="col-span-12 flex h-32 items-center justify-center bg-mango p-4 md:col-span-3">
           Inclusivity
         </div>
-        <div className="col-span-12 flex h-28 items-center justify-center bg-sunset p-4 md:col-span-3">
+        <div className="col-span-12 flex h-32 items-center justify-center bg-sunset p-4 md:col-span-3">
           Community
         </div>
-        <div className="col-span-12 flex h-28 items-center justify-center bg-iris p-4 md:col-span-3">
+        <div className="col-span-12 flex h-32 items-center justify-center bg-iris p-4 md:col-span-3">
           Intersectional
         </div>
-        <div className="col-span-12 flex h-28 items-center justify-center bg-sapphire p-4 md:col-span-3">
+        <div className="col-span-12 flex h-32 items-center justify-center bg-sapphire p-4 md:col-span-3">
           Compassion
         </div>
       </div>
@@ -37,7 +37,7 @@ function Home() {
           }}
         >
           <div className="px-[10dvw] pb-8 pt-16">
-            <div className="font-sans-black text-4xl tracking-tighter text-gray-900 opacity-90">
+            <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
               Upcoming Event
             </div>
             <EventCardLandscape isRegisterOption={true} />

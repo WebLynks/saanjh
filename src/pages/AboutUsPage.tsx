@@ -30,10 +30,12 @@ const founders: Founder[] = [
 function AboutUsPage() {
   return (
     <div>
-      <div className="flex items-center justify-center px-[10dvw] py-16">
-        <div className="flex flex-col items-center justify-center">
-          <h1 className="text-sunset">About Us</h1>
-          <p className="text-center">
+      <div className="flex items-center justify-center px-[20dvw] pb-20 pt-28 md:pb-24 md:pt-32 lg:pb-28 lg:pt-40">
+        <div className="flex flex-col items-center justify-center gap-8">
+          <h1 className="font-sans-black text-5xl font-semibold tracking-tighter text-sunset md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            About Us
+          </h1>
+          <p className="text-center lg:text-lg xl:text-xl 2xl:text-2xl">
             We at Saanjh aim to create a safe space and community through open
             conversations about everything mental health and well-being. We wish
             to achieve this by working with both individuals and groups.

@@ -9,15 +9,15 @@ function Header() {
   const location = useLocation();
   const isPathIncludeWhitePages =
     location.pathname.includes("/events") ||
-    location.pathname.includes("/individual-therapy");
+    location.pathname.includes("/individual-therapy") ||
+    location.pathname.includes("/contact") ||
+    location.pathname.includes("/about-us");
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
 
   const handleScroll = () => {
-    console.log(window.scrollY);
-
     if (window.scrollY <= 50) {
       setIsAtTop(true);
     } else {
@@ -72,8 +72,8 @@ function Header() {
             <Link to="/" onClick={toggleMenu}>
               Home
             </Link>
-            <Link to="/events" onClick={toggleMenu}>
-              Events
+            <Link to="/about-us" onClick={toggleMenu}>
+              About Us
             </Link>
             <Link to="/blogs" onClick={toggleMenu}>
               Blogs
@@ -90,6 +90,12 @@ function Header() {
                   aria-orientation="vertical"
                   aria-labelledby="options-menu"
                 >
+                  <Link
+                    to="/events"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Group Sessions
+                  </Link>
                   <Link
                     to="/services/individual-therapy"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
@@ -137,8 +143,8 @@ function Header() {
           <Link to="/" onClick={toggleMenu}>
             Home
           </Link>
-          <Link to="/events" onClick={toggleMenu}>
-            Events
+          <Link to="/about-us" onClick={toggleMenu}>
+            About Us
           </Link>
           <Link to="/blogs" onClick={toggleMenu}>
             Blogs
@@ -158,6 +164,13 @@ function Header() {
                 className="flex flex-col pl-4"
                 onClick={toggleMobileDropdown}
               >
+                <Link
+                  to="/events"
+                  className="block p-2 text-sm text-gray-700 hover:bg-gray-100"
+                  onClick={toggleMenu}
+                >
+                  Group Sessions
+                </Link>
                 <Link
                   to="/services/individual-therapy"
                   className="block p-2 text-sm text-gray-700 hover:bg-gray-100"
