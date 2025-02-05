@@ -2,7 +2,7 @@ import TeamCard from "../components/TeamCard";
 
 function Team() {
   return (
-    <div className="px-[10dvw] py-16">
+    <div data-aos="slide-up" className="px-[10dvw] py-16">
       <div className="font-sans-black text-4xl tracking-tighter">
         Meet Our Team
       </div>

@@ -11,7 +11,10 @@ function Home() {
     <>
       <HomeHero />
       <Story />
-      <div className="font-sans-black grid grid-cols-12 text-2xl tracking-tighter text-white opacity-90">
+      <div
+        data-aos="slide-up"
+        className="grid grid-cols-12 font-sans-black text-2xl tracking-tighter text-white opacity-90"
+      >
         <div className="col-span-12 flex h-28 items-center justify-center bg-mango p-4 md:col-span-3">
           Inclusivity
         </div>
@@ -26,7 +29,7 @@ function Home() {
         </div>
       </div>
       <Services />
-      <div>
+      <div data-aos="slide-up">
         <div
           className="relative bg-cover bg-center bg-no-repeat"
           style={{

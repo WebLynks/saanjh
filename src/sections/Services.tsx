@@ -2,7 +2,7 @@ import ServiceCard from "../components/ServiceCard";
 
 function Services() {
   return (
-    <div className="px-[10dvw] py-16">
+    <div data-aos="slide-up" className="px-[10dvw] py-16">
       <div className="font-sans-black text-4xl tracking-tighter text-gray-900 opacity-90">
         Our Services
       </div>
