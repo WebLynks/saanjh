@@ -7,7 +7,7 @@ import sharingGroupImgSrc from "../assets/images/sharing_group.png";
 function Event() {
   return (
     <>
-      <div className="flex flex-col justify-between font-extrabold">
+      <div className="flex flex-col justify-between py-16 font-extrabold">
         <div className="flex items-center justify-start bg-gradient-to-b from-mango from-40% via-iris via-80% to-sapphire to-100% bg-clip-text text-transparent">
           <div className="text-[20dvw] xl:text-[18dvw]">Saanjh</div>
         </div>
@@ -31,7 +31,7 @@ function Event() {
         </div>
       </div>
       <div className="space-y-16 px-[10dvw] py-16">
-        <div className="font-sans-black text-center text-3xl tracking-tighter text-gray-900 opacity-90">
+        <div className="text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
           Group Sessions
         </div>
         <div className="flex flex-col gap-16 md:flex-row">

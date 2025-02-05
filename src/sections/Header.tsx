@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import logo from "../assets/images/saanjh_new_logo_header.png";
 import headerBackgroundImage from "../assets/images/background_slice.png";
 import { useEffect, useState } from "react";
@@ -6,6 +6,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 function Header() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const isPathIncluded = location.pathname.includes("/events");
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
@@ -49,9 +51,12 @@ function Header() {
   return (
     <header className="fixed top-0 z-10 w-full font-sans-black tracking-tighter text-gray-900 opacity-90">
       <div
-        className={`fixed top-0 flex h-20 w-full items-center justify-between ${isAtTop ? "bg-transparent" : "bg-cover"} px-[5vw] transition-all duration-500 ease-in-out`}
+        className={`fixed top-0 flex h-20 w-full items-center justify-between ${isAtTop && !isPathIncluded ? "bg-transparent" : "bg-cover"} px-[5vw] transition-all duration-500 ease-in-out`}
         style={{
-          backgroundImage: isAtTop ? "none" : `url(${headerBackgroundImage})`,
+          backgroundImage:
+            isAtTop && !isPathIncluded
+              ? "none"
+              : `url(${headerBackgroundImage})`,
         }}
       >
         <img
