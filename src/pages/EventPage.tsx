@@ -7,11 +7,11 @@ import sharingGroupImgSrc from "../assets/images/sharing_group.png";
 function Event() {
   return (
     <>
-      <div className="flex flex-col justify-between py-16 font-extrabold">
+      <div className="flex flex-col justify-between gap-[10px] pt-16 font-extrabold md:pt-8">
         <div className="flex items-center justify-start bg-gradient-to-b from-mango from-40% via-iris via-80% to-sapphire to-100% bg-clip-text text-transparent">
           <div className="text-[20dvw] xl:text-[18dvw]">Saanjh</div>
         </div>
-        <div className="flex items-start justify-end bg-gradient-to-b from-mango from-40% via-iris via-80% to-sapphire to-100% bg-clip-text text-transparent">
+        <div className="-mt-[10dvw] flex items-start justify-end bg-gradient-to-b from-mango from-40% via-iris via-80% to-sapphire to-100% bg-clip-text text-transparent">
           <div className="text-[20dvw] xl:text-[18dvw]">Events</div>
         </div>
       </div>

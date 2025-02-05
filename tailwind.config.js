@@ -39,5 +39,4 @@ export default {
     "border-sapphire",
     "border-mango",
   ],
-  plugins: [require("@tailwindcss/typography")],
 };

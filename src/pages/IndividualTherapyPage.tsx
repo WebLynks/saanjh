@@ -8,7 +8,7 @@ import saanjhLogo from "../assets/images/saanjh_logo.png";
 function IndividualTherapyPage() {
   return (
     <>
-      <div className="py-16">
+      <div className="pb-16 pt-28">
         <div
           className={`bg-none bg-contain bg-[42dvw_0px] bg-no-repeat px-[10dvw] md:bg-individual-therapy lg:bg-[45dvw_0px] xl:bg-[50dvw_0px] 2xl:bg-[55dvw_0px]`}
         >
@@ -85,7 +85,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black py-8 text-center text-3xl tracking-tighter text-gray-900 opacity-90">
+      <div className="py-8 text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
         Qualifications
       </div>
       <div className="flex flex-col items-center justify-evenly gap-8 bg-sky-200 py-16 md:flex-row">
@@ -109,7 +109,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black grid grid-cols-5 text-xl tracking-tighter text-white opacity-90 lg:text-2xl">
+      <div className="grid grid-cols-5 font-sans-black text-xl tracking-tighter text-white opacity-90 lg:text-2xl">
         <div className="col-span-5 flex h-24 items-center justify-center bg-mango p-4 md:col-span-1">
           <div className="flex flex-col items-center md:items-start">
             <div className="">1000+</div>
@@ -142,7 +142,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="font-sans-black py-8 text-center text-3xl tracking-tighter text-gray-900 opacity-90">
+      <div className="py-8 text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
         Certifications
       </div>
       <div className="flex flex-col gap-0 bg-pink-100 px-[10dvw] py-10">
@@ -152,7 +152,7 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="font-sans-black mb-4 text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
               2021
             </div>
             <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
@@ -168,7 +168,7 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="font-sans-black mb-4 text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
               2023
             </div>
             <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
@@ -189,7 +189,7 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="font-sans-black mb-4 text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
               2024
             </div>
             <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
@@ -200,19 +200,19 @@ function IndividualTherapyPage() {
               Queer Affirmative Counselling Practice,
             </div>
             <div className="pb-8">Pause for Perspective</div>
-            <div className="font-sans-black pb-8 text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="pb-8 font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
               Neurodivergence/Disability Justice/MAD Studies
             </div>
           </div>
         </div>
         <div className="ms-[5px] h-0.5 w-full bg-sunset"></div>
       </div>
-      <div className="font-sans-black py-8 text-center text-3xl tracking-tighter text-gray-900 opacity-90">
+      <div className="py-8 text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
         Process
       </div>
       <div className="grid grid-cols-3 gap-1">
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-gray-900 text-sunset opacity-90">
             1.
           </div>
           <div className="font-sans-black tracking-tighter text-white opacity-90">
@@ -220,7 +220,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-gray-900 text-sunset opacity-90">
             2.
           </div>
           <div className="font-sans-black tracking-tighter text-white opacity-90">
@@ -228,7 +228,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="font-sans-black absolute start-1 top-1 flex size-8 items-center justify-center bg-white tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-gray-900 text-sunset opacity-90">
             3.
           </div>
           <div className="font-sans-black tracking-tighter text-white opacity-90">

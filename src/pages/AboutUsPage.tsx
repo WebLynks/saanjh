@@ -31,7 +31,7 @@ function AboutUsPage() {
   return (
     <div>
       <div className="flex items-center justify-center px-[10dvw] py-16">
-        <div className="prose flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
           <h1 className="text-sunset">About Us</h1>
           <p className="text-center">
             We at Saanjh aim to create a safe space and community through open
@@ -45,7 +45,7 @@ function AboutUsPage() {
         <div className="px-[10dvw] py-12">
           <div className="flex flex-col gap-8 md:flex-row md:gap-0">
             <div className="w-12/12 flex grow justify-start md:w-4/12 md:grow-0">
-              <div className="font-sans-black flex flex-col items-start justify-center text-5xl tracking-tighter text-gray-900 opacity-90">
+              <div className="flex flex-col items-start justify-center font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90">
                 <div>Our</div> <div>Founders</div>
               </div>
             </div>
@@ -79,7 +79,7 @@ function AboutUsPage() {
 
       <div className="bg-pink-100 px-[10dvw] py-16 text-sunset">
         <div className="flex flex-col gap-16 md:flex-row md:gap-32">
-          <div className="font-sans-black flex flex-col justify-center text-6xl tracking-tighter text-gray-900 opacity-90">
+          <div className="flex flex-col justify-center font-sans-black text-6xl tracking-tighter text-gray-900 opacity-90">
             <div>Our</div>
             <div>Mission</div>
           </div>
@@ -98,7 +98,7 @@ function AboutUsPage() {
         </div>
       </div>
 
-      <div className="sm:font-sans-black relative flex text-xs tracking-tighter text-white opacity-90 sm:text-lg md:text-xl lg:text-2xl">
+      <div className="relative flex text-xs tracking-tighter text-white opacity-90 sm:font-sans-black sm:text-lg md:text-xl lg:text-2xl">
         <div className="flex h-96 w-1/4 items-start justify-center text-clip bg-mango px-2 py-16">
           Inclusivity
         </div>
@@ -122,7 +122,7 @@ function AboutUsPage() {
           alt="Orange Background"
           className="size-full object-fill"
         />
-        <div className="font-sans-black absolute left-1/2 top-1/2 flex w-4/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center text-sm tracking-tighter text-white opacity-90 sm:text-base">
+        <div className="absolute left-1/2 top-1/2 flex w-4/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center font-sans-black text-sm tracking-tighter text-white opacity-90 sm:text-base">
           <div>
             At the core of this initiative is the belief that mental health is
             not just about coping with mental illnesses but also about

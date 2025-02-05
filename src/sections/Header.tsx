@@ -7,7 +7,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 function Header() {
   const navigate = useNavigate();
   const location = useLocation();
-  const isPathIncluded = location.pathname.includes("/events");
+  const isPathIncludeWhitePages =
+    location.pathname.includes("/events") ||
+    location.pathname.includes("/individual-therapy");
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
@@ -51,10 +53,10 @@ function Header() {
   return (
     <header className="fixed top-0 z-10 w-full font-sans-black tracking-tighter text-gray-900 opacity-90">
       <div
-        className={`fixed top-0 flex h-20 w-full items-center justify-between ${isAtTop && !isPathIncluded ? "bg-transparent" : "bg-cover"} px-[5vw] transition-all duration-500 ease-in-out`}
+        className={`fixed top-0 flex h-20 w-full items-center justify-between ${isAtTop && !isPathIncludeWhitePages ? "bg-transparent" : "bg-cover"} px-[5vw] transition-all duration-500 ease-in-out`}
         style={{
           backgroundImage:
-            isAtTop && !isPathIncluded
+            isAtTop && !isPathIncludeWhitePages
               ? "none"
               : `url(${headerBackgroundImage})`,
         }}
