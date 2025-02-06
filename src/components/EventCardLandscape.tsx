@@ -48,7 +48,7 @@ function EventCardLandscape({
             {amount}
           </div>
         </div>
-        <div className="flex break-words lg:text-lg 2xl:text-xl">{details}</div>
+        <div className="flex break-words">{details}</div>
         <div className="flex flex-wrap items-center justify-between font-sans-black text-lg tracking-tighter text-gray-900 opacity-90 lg:text-xl 2xl:text-2xl">
           <div>{`Time: ${timing}`}</div>
           <div>{date}</div>

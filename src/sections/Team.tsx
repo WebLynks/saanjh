@@ -11,16 +11,16 @@ function Team() {
           name="Ruchi Bhutada"
           pronoun="She/Her"
           imageName="ruchi"
-          position="Co-Founder"
-          description="Counselling Psychologist, Narrative Practitioner, Mental Health Advocate"
+          position="Co-Founder (Counselling Psychologist, Narrative Practitioner, Mental Health Advocate)"
+          description="Hello! I'm Ruchi, a counselling psychologist with an MSc from King's College London. Through Saanjh, I strive to create a safe, accepting space for mental wellness. I believe in mental hygiene and advocacy. Beyond work, I love reading, traveling, and spending time with animals!"
           bgColor="sapphire"
         />
         <TeamCard
           name="Abhramika Choudhuri"
           pronoun="She/They"
           imageName="abhramika"
-          position="Co-Founder"
-          description="Organizational Psychologist, MBA, Mental Health Advocate"
+          position="Co-Founder (Organizational Psychologist, MBA, Mental Health Advocate)"
+          description="Hi! I'm Abhramika, with a Master's in Work and Organisational Psychology and an MBA. Passionate about mental health advocacy, I use Saanjh to build communities, foster connections, and create inclusive spaces."
           bgColor="mango"
         />
       </div>

@@ -33,9 +33,11 @@ function TeamCard({
       <div className="flex flex-col flex-wrap gap-4">
         <div className="font-sans-black tracking-tighter text-orange-600 opacity-90">
           <div className="text-2xl lg:text-3xl">{`${name} (${pronoun})`}</div>
-          <div className="lg:text-lg xl:text-xl 2xl:text-2xl">{position}</div>
+          <div className="font-sans lg:text-lg xl:text-xl 2xl:text-2xl">
+            {position}
+          </div>
         </div>
-        <div className="lg:text-lg xl:text-xl 2xl:text-2xl">{description}</div>
+        <div className="">{description}</div>
       </div>
     </div>
   );

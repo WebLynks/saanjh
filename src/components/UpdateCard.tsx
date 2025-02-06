@@ -12,8 +12,8 @@ function UpdateCard({ date, content, bgColor }: UpdateCardProps) {
       >
         <div className="flex flex-col items-start justify-between gap-8 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="xl:text-lg 2xl:text-xl">{date}</div>
-          <div className="lg:text-lg xl:text-xl 2xl:text-2xl">{content}</div>
-          <button className="rounded-lg bg-gray-50 p-2 shadow shadow-gray-500 xl:text-lg 2xl:text-xl">
+          <div className="">{content}</div>
+          <button className="rounded-lg bg-gray-50 p-2 font-sans shadow shadow-gray-500">
             Read More
           </button>
         </div>

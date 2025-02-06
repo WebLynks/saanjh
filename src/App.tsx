@@ -5,7 +5,7 @@ import Footer from "./sections/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="text-sm md:text-base">
       <Header />
       <Outlet />
       <Footer />

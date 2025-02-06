@@ -120,7 +120,7 @@ function WorkplaceWellbeingPage() {
           alt="Blue Background"
           className="size-full object-fill"
         />
-        <div className="absolute left-1/2 top-1/2 flex w-3/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center font-sans-black text-sm tracking-tighter text-white opacity-90 sm:text-base">
+        <div className="absolute left-1/2 top-1/2 flex w-3/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center text-white">
           <div>
             At Saanjh, we are focused on creating Workplace Wellbeing solutions
             that are aligned with the needs and concerns of your organization.

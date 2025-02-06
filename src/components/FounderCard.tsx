@@ -31,7 +31,7 @@ function FounderCard({ name, detail, imageName, bgColor }: Founder) {
             {name}
           </div>
           <hr className={`w-2/5 border-2 border-${bgColor}`} />
-          <div className="text-center md:max-lg:text-sm">{detail}</div>
+          <div className="text-center">{detail}</div>
           <div
             className={`rounded-xl bg-${bgColor} px-4 py-2 text-white shadow-lg`}
           >

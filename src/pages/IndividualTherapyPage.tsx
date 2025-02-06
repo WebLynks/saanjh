@@ -18,7 +18,7 @@ function IndividualTherapyPage() {
             </div>
             <div className="lg:text-lg xl:text-xl 2xl:text-2xl">
               The aim of therapy is to create a supportive space where you can
-              navigate life’s challenges and be authentically yourself
+              navigate life's challenges and be authentically yourself
             </div>
             <div className="lg:text-lg xl:text-xl 2xl:text-2xl">
               <div className="flex items-start gap-4">
@@ -64,10 +64,10 @@ function IndividualTherapyPage() {
               <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 lg:text-3xl">
                 Meet Our Therapist
               </div>
-              <div className="font-sans-black italic tracking-tighter text-gray-900 text-mango opacity-90">
+              <div className="font-sans-black italic tracking-tighter text-mango opacity-90">
                 Ruchi Bhutada (she/her)
               </div>
-              <div className="text-base">
+              <div className="">
                 As a therapist, my hope is to create a space where you are able
                 to access the tools to navigate any challenges you may have. I
                 do not believe that I am the expert of your life, therefore this

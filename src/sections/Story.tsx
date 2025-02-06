@@ -16,7 +16,7 @@ function Story() {
               Evening or dusk. The time when the sun starts to set and the sky
               is filled with a myriad of colours
             </div>
-            <p className="text-base xl:text-lg 2xl:text-xl">
+            <p className="">
               Saanjh is a mental health service provider, born from the desire
               to make mental health care intersectional and accessible. We chose
               the name Saanjh because of the visual nature of the word, and the
@@ -25,7 +25,7 @@ function Story() {
               signifies that endings can be beautiful, and the perfect place to
               create new beginnings.
             </p>
-            <p className="text-base xl:text-lg 2xl:text-xl">
+            <p className="">
               Saanjh was created with the intention to build a space that
               promotes mental health advocacy, and recognises that our mental
               health journeys are collective. We want to highlight and address

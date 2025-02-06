@@ -8,21 +8,20 @@ const founders: Founder[] = [
     name: "Ruchi Bhutada",
     imageName: "ruchi",
     detail:
-      "Your mental health sidekick – because even superheroes need a break!",
+      "In-house therapist, book addict, animal lover, and aspiring world traveler",
     bgColor: "mango",
   },
   {
     name: "Abhramika Choudhuri",
     imageName: "abhramika",
     detail:
-      "Your mental health sidekick – because even superheroes need a break!",
+      "Mental wellbeing advocate, bibliophile, dancer, and always looking to learn",
     bgColor: "sapphire",
   },
   {
     name: "Harshdeep Singh",
     imageName: "harshdeep",
-    detail:
-      "Your mental health sidekick – because even superheroes need a break!",
+    detail: "Next-door product guy, part time writer, full time curious",
     bgColor: "iris",
   },
 ];
@@ -79,13 +78,13 @@ function AboutUsPage() {
         </div>
       </div>
 
-      <div className="bg-pink-100 px-[10dvw] py-16 text-sunset">
+      <div className="bg-pink-100 px-[10dvw] py-16">
         <div className="flex flex-col gap-16 md:flex-row md:gap-32">
           <div className="flex flex-col justify-center font-sans-black text-6xl tracking-tighter text-gray-900 opacity-90">
             <div>Our</div>
             <div>Mission</div>
           </div>
-          <div className="font-sans-black tracking-tighter text-gray-900 opacity-90">
+          <div className="">
             At Saanjh, we understand that mental health goes beyond just the
             individual. We aim to inform our services by the larger context of
             an individual, the intersections of their identity, and provide
@@ -100,7 +99,7 @@ function AboutUsPage() {
         </div>
       </div>
 
-      <div className="relative flex text-xs tracking-tighter text-white opacity-90 sm:font-sans-black sm:text-lg md:text-xl lg:text-2xl">
+      <div className="relative flex font-sans-black text-xs tracking-tighter text-white opacity-90 sm:text-lg md:text-xl lg:text-2xl">
         <div className="flex h-96 w-1/4 items-start justify-center text-clip bg-mango px-2 py-16">
           Inclusivity
         </div>
@@ -113,7 +112,7 @@ function AboutUsPage() {
         <div className="flex h-96 w-1/4 items-start justify-center bg-sapphire px-2 py-16">
           Compassion
         </div>
-        <div className="absolute bottom-0 z-20 w-full text-9xl font-medium -tracking-[.75rem] opacity-50 sm:text-[8.5rem] md:text-[10rem] lg:text-[13rem] xl:text-[15rem] 2xl:text-[17rem]">
+        <div className="absolute bottom-0 z-20 w-full text-9xl -tracking-[.50rem] opacity-50 sm:text-[8.5rem] md:text-[10rem] lg:text-[13rem] xl:text-[15rem] 2xl:text-[17rem]">
           Our Values
         </div>
       </div>
@@ -124,7 +123,7 @@ function AboutUsPage() {
           alt="Orange Background"
           className="size-full object-fill"
         />
-        <div className="absolute left-1/2 top-1/2 flex w-4/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center font-sans-black text-sm tracking-tighter text-white opacity-90 sm:text-base">
+        <div className="absolute left-1/2 top-1/2 flex w-4/5 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center gap-8 text-center text-white md:w-3/5">
           <div>
             At the core of this initiative is the belief that mental health is
             not just about coping with mental illnesses but also about
