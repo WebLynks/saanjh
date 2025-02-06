@@ -23,7 +23,7 @@ function Event() {
           }}
         >
           <div className="px-[10dvw] pb-8 pt-16">
-            <div className="font-sans-black text-4xl tracking-tighter text-gray-900 opacity-90">
+            <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
               Upcoming Event
             </div>
             <EventCardLandscape />
@@ -31,7 +31,7 @@ function Event() {
         </div>
       </div>
       <div className="space-y-16 px-[10dvw] py-16">
-        <div className="text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
+        <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
           Group Sessions
         </div>
         <div className="flex flex-col gap-16 md:flex-row">

@@ -58,7 +58,7 @@ function WorkplaceWellbeingPage() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center py-16 font-sans-black tracking-tighter text-gray-900 opacity-90">
-        <div className="text-2xl md:text-3xl">Our Process</div>
+        <div className="text-5xl 2xl:text-6xl">Our Process</div>
         <div className="md:text-lg">Your Path To Harmony</div>
         <img
           className="h-auto w-full object-contain"
@@ -85,10 +85,10 @@ function WorkplaceWellbeingPage() {
         </div>
       </div>
       <div className="space-y-4 px-[5dvw] py-16 text-center">
-        <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90">
+        <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
           Why Workplace Wellbeing?
         </div>
-        <div className="pb-4 font-sans-black text-sm tracking-tighter text-gray-900 text-sapphire opacity-90">
+        <div className="pb-4 font-sans-black text-sm tracking-tighter text-sapphire opacity-90">
           Workplace wellbeing goes beyond just basic stress-management.
         </div>
         <div className="flex flex-col sm:flex-row">
@@ -110,7 +110,7 @@ function WorkplaceWellbeingPage() {
           alt="Saanjh Logo"
           className="h-full w-auto object-contain"
         />
-        <div className="font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
+        <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
           At Saanjh
         </div>
       </div>

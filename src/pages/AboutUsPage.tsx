@@ -46,7 +46,7 @@ function AboutUsPage() {
         <div className="px-[10dvw] py-12">
           <div className="flex flex-col gap-8 md:flex-row md:gap-0">
             <div className="w-12/12 flex grow justify-start md:w-4/12 md:grow-0">
-              <div className="flex flex-col items-start justify-center font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90">
+              <div className="tracking-tighte flex flex-col items-start justify-center font-sans-black text-5xl text-white lg:text-7xl">
                 <div>Our</div> <div>Founders</div>
               </div>
             </div>
@@ -80,7 +80,7 @@ function AboutUsPage() {
 
       <div className="bg-pink-100 px-[10dvw] py-16">
         <div className="flex flex-col gap-16 md:flex-row md:gap-32">
-          <div className="flex flex-col justify-center font-sans-black text-6xl tracking-tighter text-gray-900 opacity-90">
+          <div className="flex flex-col justify-center font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 lg:text-7xl">
             <div>Our</div>
             <div>Mission</div>
           </div>

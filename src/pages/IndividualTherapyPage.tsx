@@ -61,7 +61,7 @@ function IndividualTherapyPage() {
           </div>
           <div className="col-span-2 md:col-span-1">
             <div className="flex h-full flex-col justify-center gap-4 px-[10dvw] py-16 md:px-[5dvw]">
-              <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 lg:text-3xl">
+              <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
                 Meet Our Therapist
               </div>
               <div className="font-sans-black italic tracking-tighter text-mango opacity-90">
@@ -85,7 +85,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="py-8 text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
+      <div className="py-8 text-center font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
         Qualifications
       </div>
       <div className="flex flex-col items-center justify-evenly gap-8 bg-sky-200 py-16 md:flex-row">
@@ -142,7 +142,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="py-8 text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
+      <div className="py-8 text-center font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
         Certifications
       </div>
       <div className="flex flex-col gap-0 bg-pink-100 px-[10dvw] py-10">
@@ -152,10 +152,10 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-sunset opacity-90">
               2021
             </div>
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-lg tracking-tighter text-sunset opacity-90">
               Suicide First Aid: Understanding Suicide Intervention,
             </div>
             <div className="pb-8">The City & Guilds of London Institute</div>
@@ -168,14 +168,14 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-sunset opacity-90">
               2023
             </div>
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-lg tracking-tighter text-sunset opacity-90">
               South Asian Diploma in Narrative Practices,
             </div>
             <div className="pb-8">Narrative Practices India</div>
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-lg tracking-tighter text-sunset opacity-90">
               Mindfulness Based Symptom Management,
             </div>
             <div className="pb-8">Pause for Perspective</div>
@@ -189,30 +189,30 @@ function IndividualTherapyPage() {
             <div className="h-full w-0.5 bg-sunset"></div>
           </div>
           <div>
-            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="mb-4 font-sans-black text-3xl tracking-tighter text-sunset opacity-90">
               2024
             </div>
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-lg tracking-tighter text-sunset opacity-90">
               Internal Family Systems Therapy,
             </div>
             <div className="pb-8">Thinking Heart USA</div>
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-lg tracking-tighter text-sunset opacity-90">
               Queer Affirmative Counselling Practice,
             </div>
             <div className="pb-8">Pause for Perspective</div>
-            <div className="pb-8 font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="pb-8 font-sans-black text-lg tracking-tighter text-sunset opacity-90">
               Neurodivergence/Disability Justice/MAD Studies
             </div>
           </div>
         </div>
         <div className="ms-[5px] h-0.5 w-full bg-sunset"></div>
       </div>
-      <div className="py-8 text-center font-sans-black text-3xl tracking-tighter text-gray-900 opacity-90">
+      <div className="py-8 text-center font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
         Process
       </div>
       <div className="grid grid-cols-3 gap-1">
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-sunset opacity-90">
             1.
           </div>
           <div className="font-sans-black tracking-tighter text-white opacity-90">
@@ -220,7 +220,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-sunset opacity-90">
             2.
           </div>
           <div className="font-sans-black tracking-tighter text-white opacity-90">
@@ -228,7 +228,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
         <div className="relative col-span-3 flex h-28 items-center justify-center bg-sunset md:col-span-1">
-          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="absolute start-1 top-1 flex size-8 items-center justify-center bg-white font-sans-black tracking-tighter text-sunset opacity-90">
             3.
           </div>
           <div className="font-sans-black tracking-tighter text-white opacity-90">
