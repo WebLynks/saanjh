@@ -7,14 +7,17 @@ import twitterSquareIcon from "../assets/images/twitter_squared.png";
 function ContactPage() {
   return (
     <div className="grid grid-cols-12">
-      <div className="col-span-12 space-y-8 px-[10dvw] py-24 md:col-span-7">
+      <div className="col-span-12 space-y-8 px-[10dvw] pb-24 pt-36 md:col-span-7">
         <div className="flex flex-col space-y-4">
           <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
             Contact Information
           </div>
           <div className="text-sm">
-            Plan upon yet way get cold spot its week. Always do limit hearts.
-            Resolve parties.
+            At Saanjh, we believe in building meaningful connections and
+            creating a safe space for mental well-being. Whether you have
+            questions, need support, or simply want to learn more about our
+            services, we're here to listen. Reach out to us—we'd love to hear
+            from you. You're not alone!
           </div>
         </div>
         <div className="grid grid-cols-12 space-x-8">
@@ -68,8 +71,8 @@ function ContactPage() {
           backgroundImage: `url(${backgroundImgSrc})`,
         }}
       >
-        <div className="h-auto w-2/5 bg-white opacity-50">
-          <img className="" src={logo} alt="Logo" />
+        <div className="size-40 bg-white opacity-75">
+          <img className="h-full w-auto object-contain" src={logo} alt="Logo" />
         </div>
       </div>
     </div>
