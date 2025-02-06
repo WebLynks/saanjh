@@ -64,7 +64,7 @@ function IndividualTherapyPage() {
               <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
                 Meet Our Therapist
               </div>
-              <div className="font-sans-black italic tracking-tighter text-mango opacity-90">
+              <div className="font-sans-black text-2xl italic tracking-tighter text-mango opacity-90 2xl:text-3xl">
                 Ruchi Bhutada (she/her)
               </div>
               <div className="">
@@ -109,7 +109,7 @@ function IndividualTherapyPage() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-5 font-sans-black text-xl tracking-tighter text-white opacity-90 lg:text-2xl">
+      <div className="grid grid-cols-5 font-sans-black text-3xl tracking-tighter text-white opacity-90 2xl:text-4xl">
         <div className="col-span-5 flex h-24 items-center justify-center bg-mango p-4 md:col-span-1">
           <div className="flex flex-col items-center md:items-start">
             <div className="">1000+</div>

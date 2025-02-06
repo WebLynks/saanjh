@@ -9,7 +9,7 @@ function ContactPage() {
     <div className="grid grid-cols-12">
       <div className="col-span-12 space-y-8 px-[10dvw] py-24 md:col-span-7">
         <div className="flex flex-col space-y-4">
-          <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+          <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
             Contact Information
           </div>
           <div className="text-sm">
@@ -19,13 +19,13 @@ function ContactPage() {
         </div>
         <div className="grid grid-cols-12 space-x-8">
           <div className="col-span-5 space-y-4">
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Phone
             </div>
             <div className="text-sm">9899654321</div>
           </div>
           <div className="col-span-7 space-y-4">
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Location
             </div>
             <div className="text-sm">FF Main Street, 22nd Avenue</div>
@@ -33,13 +33,13 @@ function ContactPage() {
         </div>
         <div className="grid grid-cols-12 space-x-8">
           <div className="col-span-5 space-y-4">
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Email
             </div>
             <div className="text-sm">saanjh@gmail.com</div>
           </div>
           <div className="col-span-7 space-y-4">
-            <div className="font-sans-black text-lg tracking-tighter text-gray-900 text-sunset opacity-90">
+            <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Follow Us
             </div>
             <div className="flex space-x-4">

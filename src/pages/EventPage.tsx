@@ -36,7 +36,7 @@ function Event() {
         </div>
         <div className="flex flex-col gap-16 md:flex-row">
           <div className="w-full space-y-8 md:w-7/12">
-            <div className="font-sans-black text-xl tracking-tighter text-gray-900 opacity-90">
+            <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 2xl:text-3xl">
               Sharing Circle
             </div>
             <div>
@@ -57,7 +57,7 @@ function Event() {
         </div>
         <div className="flex flex-col gap-16 md:flex-row">
           <div className="w-full space-y-8 md:w-7/12">
-            <div className="font-sans-black text-xl tracking-tighter text-gray-900 opacity-90">
+            <div className="font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 2xl:text-3xl">
               Sharing Group
             </div>
             <div>

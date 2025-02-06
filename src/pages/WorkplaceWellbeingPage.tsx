@@ -28,38 +28,38 @@ function WorkplaceWellbeingPage() {
       <div className="flex flex-col items-center justify-center gap-2 bg-sky-200 pb-16">
         <div className="flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="">
-            <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire">
+            <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire 2xl:text-3xl">
               1.
             </div>
           </div>
-          <div className="grow text-center text-white md:text-lg">
+          <div className="grow text-center text-2xl text-white 2xl:text-3xl">
             17% more likelihood of high performance
           </div>
         </div>
         <div className="flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="">
-            <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire">
+            <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire 2xl:text-3xl">
               2.
             </div>
           </div>
-          <div className="grow text-center text-white md:text-lg">
+          <div className="grow text-center text-2xl text-white 2xl:text-3xl">
             29% increase in high collaborative behaviours
           </div>
         </div>
         <div className="flex w-full items-center justify-between gap-4 bg-sapphire pb-1 pe-4 ps-1 pt-1 font-sans-black tracking-tighter text-gray-900 opacity-90">
           <div className="">
-            <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire">
+            <div className="flex size-20 items-center justify-center bg-white text-2xl text-sapphire 2xl:text-3xl">
               3.
             </div>
           </div>
-          <div className="grow text-center text-white md:text-lg">
+          <div className="grow text-center text-2xl text-white 2xl:text-3xl">
             20% increase in better decision making by employees
           </div>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center py-16 font-sans-black tracking-tighter text-gray-900 opacity-90">
         <div className="text-5xl 2xl:text-6xl">Our Process</div>
-        <div className="md:text-lg">Your Path To Harmony</div>
+        <div className="text-2xl 2xl:text-3xl">Your Path To Harmony</div>
         <img
           className="h-auto w-full object-contain"
           src={saanpSidhi}
@@ -88,7 +88,7 @@ function WorkplaceWellbeingPage() {
         <div className="font-sans-black text-5xl tracking-tighter text-gray-900 opacity-90 2xl:text-6xl">
           Why Workplace Wellbeing?
         </div>
-        <div className="pb-4 font-sans-black text-sm tracking-tighter text-sapphire opacity-90">
+        <div className="pb-4 font-sans-black text-2xl tracking-tighter text-sapphire opacity-90 2xl:text-3xl">
           Workplace wellbeing goes beyond just basic stress-management.
         </div>
         <div className="flex flex-col sm:flex-row">
