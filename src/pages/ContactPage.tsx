@@ -12,7 +12,7 @@ function ContactPage() {
           <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
             Contact Information
           </div>
-          <div className="text-sm">
+          <div className="text-lg 2xl:text-xl">
             At Saanjh, we believe in building meaningful connections and
             creating a safe space for mental well-being. Whether you have
             questions, need support, or simply want to learn more about our
@@ -25,23 +25,30 @@ function ContactPage() {
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Phone
             </div>
-            <div className="text-sm">9899654321</div>
+            <div className="text-lg 2xl:text-xl">9899654321</div>
           </div>
           <div className="col-span-7 space-y-4">
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Location
             </div>
-            <div className="text-sm">FF Main Street, 22nd Avenue</div>
+            <div className="text-lg 2xl:text-xl">
+              FF Main Street, 22nd Avenue
+            </div>
           </div>
         </div>
-        <div className="grid grid-cols-12 space-x-8">
+        <div className="grid grid-cols-12 max-xl:gap-8 xl:space-x-8">
           <div className="col-span-5 space-y-4">
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Email
             </div>
-            <div className="text-sm">saanjh@gmail.com</div>
+            <a
+              href="mailto:saanjhwellness@gmail.com"
+              className="text-lg 2xl:text-xl"
+            >
+              saanjhwellness@gmail.com
+            </a>
           </div>
-          <div className="col-span-7 space-y-4">
+          <div className="col-span-12 space-y-4 xl:col-span-7">
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Follow Us
             </div>

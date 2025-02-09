@@ -42,14 +42,14 @@ function EventCardLandscape({
         <div className="flex w-full flex-wrap items-center justify-between">
           <div className="font-sans-black tracking-tighter text-gray-900 opacity-90">
             <div className="text-3xl lg:text-4xl 2xl:text-5xl">{name}</div>
-            <div className="text-sm lg:text-base 2xl:text-lg">{`Slots: ${numberOfSlots} Seats`}</div>
+            <div className="text-lg 2xl:text-xl">{`Slots: ${numberOfSlots} Seats`}</div>
           </div>
           <div className="font-sans-black text-xl tracking-tighter text-gray-900 opacity-90 lg:text-2xl 2xl:text-3xl">
             {amount}
           </div>
         </div>
         <div className="flex break-words">{details}</div>
-        <div className="flex flex-wrap items-center justify-between font-sans-black text-lg tracking-tighter text-gray-900 opacity-90 lg:text-xl 2xl:text-2xl">
+        <div className="flex flex-wrap items-center justify-between font-sans-black text-lg tracking-tighter text-gray-900 opacity-90 2xl:text-xl">
           <div>{`Time: ${timing}`}</div>
           <div>{date}</div>
         </div>

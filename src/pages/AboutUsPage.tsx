@@ -51,17 +51,21 @@ function AboutUsPage() {
               </div>
             </div>
             <div className="w-12/12 flex md:w-8/12">
-              <div className="flex w-2/12 flex-col items-center md:w-2/12">
+              <div className="flex w-2/12 flex-col items-center font-sans-black text-lg tracking-tighter opacity-90 md:w-2/12 md:text-xl 2xl:text-2xl">
                 <div>Ruchi</div>
                 <div>Bhutada</div>
               </div>
               <div className="-mb-12 flex w-4/12 grow md:w-4/12">
-                <img className="object-fill" src={ruchiImage} alt="Ruchi" />
+                <img className="object-cover" src={ruchiImage} alt="Ruchi" />
               </div>
               <div className="-mb-12 -ms-7 flex w-4/12 grow md:w-4/12">
-                <img src={abhramikaImage} alt="Abhramika" />
+                <img
+                  className="object-cover"
+                  src={abhramikaImage}
+                  alt="Abhramika"
+                />
               </div>
-              <div className="flex w-2/12 flex-col items-center md:w-2/12">
+              <div className="flex w-2/12 flex-col items-center font-sans-black text-lg tracking-tighter opacity-90 md:w-2/12 md:text-xl 2xl:text-2xl">
                 <div>Abhramika</div>
                 <div>Choudhuri</div>
               </div>
@@ -99,7 +103,7 @@ function AboutUsPage() {
         </div>
       </div>
 
-      <div className="relative flex font-sans-black text-xs tracking-tighter text-white opacity-90 sm:text-lg md:text-xl lg:text-2xl">
+      <div className="relative flex font-sans-black text-sm tracking-tighter text-white opacity-90 sm:text-lg md:text-xl lg:text-2xl">
         <div className="flex h-96 w-1/4 items-start justify-center text-clip bg-mango px-2 py-16">
           Inclusivity
         </div>

@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         sans: ["Verdana", ...defaultTheme.fontFamily.sans],
         "sans-black": ["ProductSansBlack", ...defaultTheme.fontFamily.sans],
+        "sans-regular": ["ProductSansRegular", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         iris: "#CB89DB",

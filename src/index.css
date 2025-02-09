@@ -7,6 +7,11 @@
   src: url("../public/ProductSans-Black.ttf");
 }
 
+@font-face {
+  font-family: "ProductSansRegular";
+  src: url("../public/ProductSans-Regular.ttf");
+}
+
 * {
   letter-spacing: -0.025em;
 }
