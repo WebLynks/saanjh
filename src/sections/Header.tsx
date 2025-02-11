@@ -138,7 +138,7 @@ function Header() {
       </div>
       {isOpen && (
         <nav
-          className={`flex flex-col gap-4 bg-pink-50 px-[10dvw] py-4 font-medium text-sunset transition-all duration-500 md:hidden ${isVisible ? "translate-x-0" : "-translate-x-full"} uppercase`}
+          className={`fixed top-20 flex w-full flex-col gap-4 bg-pink-50 px-[10dvw] py-4 font-medium text-sunset transition-all duration-500 md:hidden ${isVisible ? "translate-x-0" : "-translate-x-full"} uppercase`}
         >
           <Link to="/" onClick={toggleMenu}>
             Home
