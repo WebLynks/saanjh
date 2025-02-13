@@ -13,7 +13,7 @@ function BlogCard({
   const { loading, image } = useImage(imageName);
 
   return (
-    <div className="col-span-3 p-8 hover:bg-pink-100 sm:col-span-1">
+    <div className="col-span-3 p-8 hover:bg-pink-100 md:col-span-1">
       <div className="flex flex-col items-start justify-around gap-4">
         {loading ? (
           `loading...`
@@ -24,20 +24,24 @@ function BlogCard({
             alt={title}
           />
         )}
-        <div className="flex w-full flex-wrap items-center justify-between sm:max-md:h-16 md:max-lg:h-12">
-          <div className="font-sans-black tracking-tighter text-gray-900 opacity-90">
+        <div className="sm:max-md:h-18 flex w-full flex-col flex-wrap items-start justify-between md:max-lg:h-14">
+          <div className="font-sans-black text-lg tracking-tighter text-gray-900 opacity-90 2xl:text-xl">
             {category}
           </div>
-          <div className="text-xs">{formatDate(date)}</div>
+          <div className="font-sans-regular text-lg 2xl:text-xl">
+            {formatDate(date)}
+          </div>
         </div>
-        <div className="font-sans-black tracking-tighter text-gray-900 opacity-90 sm:max-md:h-24 md:max-lg:h-16 lg:h-12">
+        <div className="lg:h-18 pt-4 font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 sm:max-md:h-20 md:max-lg:h-28 2xl:text-3xl">
           {title}
         </div>
-        <div className="line-clamp-4 h-16 text-sm">{summary}</div>
-        <div className="w-32 cursor-pointer rounded-full bg-mango bg-opacity-50 p-2 text-center font-medium shadow-md">
+        <div className="line-clamp-4 h-[6rem] sm:h-[6rem] lg:h-24 xl:h-20">
+          {summary}
+        </div>
+        <div className="mt-6 w-32 cursor-pointer rounded-full bg-mango bg-opacity-50 p-2 text-center font-medium shadow-md">
           Read More
         </div>
-        <div className="text-xs">{`${readingTime} read`}</div>
+        <div className="pt-2 font-sans-regular text-lg 2xl:text-xl">{`${readingTime} read`}</div>
       </div>
     </div>
   );

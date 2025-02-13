@@ -33,7 +33,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-span-12 flex md:col-start-7 md:col-end-9 md:justify-center">
+          {/* <div className="col-span-12 flex md:col-start-7 md:col-end-9 md:justify-center">
             <div className="space-y-6 text-lg md:text-base lg:text-xl">
               <div className="font-sans-black text-2xl tracking-tighter text-white opacity-90">
                 Explore
@@ -53,8 +53,8 @@ function Footer() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-span-12 flex md:col-start-9 md:col-end-13 md:justify-center md:ps-8">
+          </div> */}
+          <div className="col-span-12 flex md:col-start-7 md:col-end-13 md:justify-center md:ps-8">
             <div className="space-y-6 text-lg md:text-base lg:text-xl">
               <div className="font-sans-black text-2xl tracking-tighter text-white opacity-90">
                 Follow Us
