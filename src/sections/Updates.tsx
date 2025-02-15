@@ -1,6 +1,10 @@
 import UpdateCard from "../components/UpdateCard";
+import { Blog, fetchBlogs } from "../services/blogService";
 
 function Updates() {
+  const blogs: Blog[] = fetchBlogs();
+  const bgColors = ["mango", "sapphire", "iris"];
+
   return (
     <>
       <div data-aos="slide-up" className="px-[10dvw] py-16">
@@ -8,24 +12,15 @@ function Updates() {
           The Latest From Saanjh
         </div>
         <div className="grid grid-cols-3 gap-4 pt-10">
-          <UpdateCard
-            date="8th March, 2024"
-            bgColor="mango"
-            content="Anger Management and self
-love treatment"
-          />
-          <UpdateCard
-            date="8th March, 2024"
-            bgColor="sapphire"
-            content="How pets help us in good
-mental health"
-          />
-          <UpdateCard
-            date="8th March, 2024"
-            bgColor="iris"
-            content="Overcoming trauma and
-helplessness"
-          />
+          {blogs.map((blog, index) => (
+            <UpdateCard
+              key={blog.id}
+              bgColor={bgColors[index]}
+              content={blog.title}
+              date={blog.date}
+              id={blog.id}
+            />
+          ))}
         </div>
       </div>
     </>
