@@ -60,24 +60,46 @@ function Footer() {
                 Follow Us
               </div>
               <div className="space-y-4 text-gray-400">
-                <div className="flex items-center gap-2">
-                  <div
-                    className="size-5 bg-contain"
-                    style={{ backgroundImage: `url(${instagramRoundedImage})` }}
-                  ></div>
-                  <div>Instagram</div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div
-                    className="size-5 bg-contain"
-                    style={{ backgroundImage: `url(${linkedinRoundedImage})` }}
-                  ></div>
-                  <div>Linkedin</div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <EnvelopeIcon className="size-5 text-white" />{" "}
-                  <div>saanjhwellness@gmail.com</div>
-                </div>
+                <a
+                  href="https://www.instagram.com/saanjhwellness/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex items-center gap-2">
+                    <div
+                      className="size-5 bg-contain"
+                      style={{
+                        backgroundImage: `url(${instagramRoundedImage})`,
+                      }}
+                    ></div>
+                    <div>Instagram</div>
+                  </div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/saanjh-wellness/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex items-center gap-2">
+                    <div
+                      className="size-5 bg-contain"
+                      style={{
+                        backgroundImage: `url(${linkedinRoundedImage})`,
+                      }}
+                    ></div>
+                    <div>Linkedin</div>
+                  </div>
+                </a>
+                <a
+                  href="mailto:saanjhwellness@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex items-center gap-2">
+                    <EnvelopeIcon className="size-5 text-white" />{" "}
+                    <div>saanjhwellness@gmail.com</div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -95,7 +117,13 @@ function Footer() {
           <div className="w-2/12"></div>
           <div className="flex w-4/12 flex-wrap justify-end">
             <div>Give us a call at&nbsp;</div>
-            <div className="text-sm font-medium italic">+91 93733 24053</div>
+            <a
+              href="tel:+919899654321"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="italic">+91 9899654321</div>
+            </a>
           </div>
         </div>
       </div>

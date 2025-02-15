@@ -69,19 +69,19 @@ function WorkplaceWellbeingPage() {
       <div className="flex flex-col flex-wrap items-center justify-evenly gap-6 bg-sapphire p-4 font-sans-black tracking-tighter text-white opacity-90 md:flex-row">
         <div className="flex items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
-          <div>Grow Stronger</div>
+          <div>Trusting</div>
         </div>
         <div className="flex items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
-          <div>Find Inner Peace</div>
+          <div>Empathetic Workplaces</div>
         </div>
         <div className="flex items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
-          <div>Mindful Healing</div>
+          <div>Supportive Environment</div>
         </div>
         <div className="flex items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
-          <div>Renew Mind</div>
+          <div>Psychological Safety</div>
         </div>
       </div>
       <div className="space-y-4 px-[5dvw] py-16 text-center">

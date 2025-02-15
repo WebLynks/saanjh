@@ -11,6 +11,7 @@ import AboutUsPage from "./pages/AboutUsPage.tsx";
 import ContactPage from "./pages/ContactPage.tsx";
 import IndividualTherapyPage from "./pages/IndividualTherapyPage.tsx";
 import WorkplaceWellbeingPage from "./pages/WorkplaceWellbeingPage.tsx";
+import IndividualBlogPage from "./pages/IndividualBlogPage.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")!).render(
             <Route path="" element={<Home />} />
             <Route path="events" element={<Event />} />
             <Route path="blogs" element={<Blog />} />
+            <Route path="blogs/:blogId" element={<IndividualBlogPage />} />
             <Route path="about-us" element={<AboutUsPage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="services">

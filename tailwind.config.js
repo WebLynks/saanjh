@@ -39,5 +39,6 @@ export default {
     "border-sunset",
     "border-sapphire",
     "border-mango",
+    "list-decimal",
   ],
 };

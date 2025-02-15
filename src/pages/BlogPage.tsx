@@ -2,6 +2,7 @@ import { formatDate } from "../utils/formatDate";
 import { Blog, fetchBlogs } from "../services/blogService";
 import useImage from "../hooks/useImage";
 import BlogCard from "../components/BlogCard";
+import { Link } from "react-router";
 
 function BlogPage() {
   const blogs = fetchBlogs();
@@ -39,9 +40,11 @@ function BlogPage() {
               className="line-clamp-6 pt-3 sm:line-clamp-2 md:line-clamp-3 lg:line-clamp-4 xl:line-clamp-5"
               dangerouslySetInnerHTML={{ __html: pinnedBlog.body }}
             ></p>
-            <div className="mt-6 w-32 cursor-pointer rounded-full bg-mango bg-opacity-50 p-2 text-center font-medium shadow-md">
-              Read More
-            </div>
+            <Link to={pinnedBlog.id}>
+              <div className="mt-6 w-32 cursor-pointer rounded-full bg-mango bg-opacity-50 p-2 text-center font-medium shadow-md">
+                Read More
+              </div>
+            </Link>
             <p className="pt-12 font-sans-regular text-lg 2xl:text-xl">{`${pinnedBlog.readingTime} read`}</p>
           </div>
         </div>
@@ -49,7 +52,7 @@ function BlogPage() {
 
       <div className="grid grid-cols-3 justify-items-center divide-x-2 divide-y-2">
         {blogs.map((blog: Blog) => (
-          <BlogCard key={blog.title} {...blog} />
+          <BlogCard key={blog.id} {...blog} />
         ))}
       </div>
     </div>

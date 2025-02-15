@@ -1,8 +1,10 @@
+import { Link } from "react-router";
 import useImage from "../hooks/useImage";
 import { Blog } from "../services/blogService";
 import { formatDate } from "../utils/formatDate";
 
 function BlogCard({
+  id,
   title,
   category,
   date,
@@ -35,12 +37,12 @@ function BlogCard({
         <div className="lg:h-18 pt-4 font-sans-black text-2xl tracking-tighter text-gray-900 opacity-90 sm:max-md:h-20 md:max-lg:h-28 2xl:text-3xl">
           {title}
         </div>
-        <div className="line-clamp-4 h-[6rem] sm:h-[6rem] lg:h-24 xl:h-20">
-          {summary}
-        </div>
-        <div className="mt-6 w-32 cursor-pointer rounded-full bg-mango bg-opacity-50 p-2 text-center font-medium shadow-md">
-          Read More
-        </div>
+        <div className="xl:[7rem] line-clamp-4 h-[6rem]">{summary}</div>
+        <Link to={id}>
+          <div className="mt-6 w-32 cursor-pointer rounded-full bg-mango bg-opacity-50 p-2 text-center font-medium shadow-md">
+            Read More
+          </div>
+        </Link>
         <div className="pt-2 font-sans-regular text-lg 2xl:text-xl">{`${readingTime} read`}</div>
       </div>
     </div>

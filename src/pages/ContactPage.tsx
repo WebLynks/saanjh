@@ -25,7 +25,13 @@ function ContactPage() {
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Phone
             </div>
-            <div className="text-lg 2xl:text-xl">9899654321</div>
+            <a
+              href="tel:+919899654321"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="text-lg 2xl:text-xl">+91 9899654321</div>
+            </a>
           </div>
           <div className="col-span-7 space-y-4">
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
@@ -43,6 +49,8 @@ function ContactPage() {
             </div>
             <a
               href="mailto:saanjhwellness@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-lg 2xl:text-xl"
             >
               saanjhwellness@gmail.com
@@ -53,11 +61,17 @@ function ContactPage() {
               Follow Us
             </div>
             <div className="flex space-x-4">
-              <img
-                className="size-8 rounded-md bg-orange-400 p-1"
-                src={instagramSquareIcon}
-                alt="Instagram Icon"
-              />
+              <a
+                href="https://www.instagram.com/saanjhwellness/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="size-8 rounded-md bg-orange-400 p-1"
+                  src={instagramSquareIcon}
+                  alt="Instagram Icon"
+                />
+              </a>
               <img
                 className="size-8 rounded-md bg-orange-400 p-1"
                 src={facebookSquareIcon}

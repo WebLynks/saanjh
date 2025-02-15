@@ -2,6 +2,7 @@
 import blogsJSON from "../assets/data/blogs.json";
 
 export type Blog = {
+  id: string;
   title: string;
   category: string;
   date: string;
