@@ -6,7 +6,7 @@ import linkedinSquareIcon from "../assets/images/linkedin_squared.png";
 function ContactPage() {
   return (
     <div className="grid grid-cols-12">
-      <div className="col-span-12 space-y-8 px-[10dvw] pb-24 pt-36 md:col-span-7">
+      <div className="col-span-12 space-y-8 px-[5dvw] pb-24 pt-36 md:col-span-7">
         <div className="flex flex-col space-y-4">
           <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
             Contact Information
@@ -85,7 +85,7 @@ function ContactPage() {
         </div>
       </div>
       <div
-        className="col-span-12 flex h-96 items-center justify-center bg-cover bg-no-repeat md:col-span-5 md:h-auto"
+        className="col-span-12 flex h-96 w-full items-center justify-center bg-cover bg-no-repeat md:col-span-5 md:h-auto"
         style={{
           backgroundImage: `url(${backgroundImgSrc})`,
         }}
