@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import footerBackgroundImage from "../assets/images/background_slice.png";
-import logo from "../assets/images/saanjh_footer_logo_new.png";
+import logo from "../assets/images/saanjh_footer_logo_new.webp";
 import instagramRoundedImage from "../assets/images/instagram_rounded.png";
 import linkedinRoundedImage from "../assets/images/linkedin_rounded.png";
 import { EnvelopeIcon } from "@heroicons/react/20/solid";
@@ -13,7 +13,7 @@ function Footer() {
         <img
           src={logo}
           alt="Saanjh"
-          className="left-[5dvw] ms-[10dvw] h-28 md:absolute md:top-[40px] md:ms-0"
+          className="left-[1dvw] ms-[1dvw] h-36 md:absolute md:top-[40px] md:ms-0 md:h-28 lg:h-36"
         />
 
         <div className="grid grid-cols-12 gap-y-8 py-8 pe-[5dvw] ps-[10dvw] md:ps-0">
@@ -60,46 +60,52 @@ function Footer() {
                 Follow Us
               </div>
               <div className="space-y-4 text-gray-400">
-                <a
-                  href="https://www.instagram.com/saanjhwellness/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="flex items-center gap-2">
-                    <div
-                      className="size-5 bg-contain"
-                      style={{
-                        backgroundImage: `url(${instagramRoundedImage})`,
-                      }}
-                    ></div>
-                    <div>Instagram</div>
-                  </div>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/saanjh-wellness/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="flex items-center gap-2">
-                    <div
-                      className="size-5 bg-contain"
-                      style={{
-                        backgroundImage: `url(${linkedinRoundedImage})`,
-                      }}
-                    ></div>
-                    <div>Linkedin</div>
-                  </div>
-                </a>
-                <a
-                  href="mailto:saanjhwellness@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="flex items-center gap-2">
-                    <EnvelopeIcon className="size-5 text-white" />{" "}
-                    <div>saanjhwellness@gmail.com</div>
-                  </div>
-                </a>
+                <div>
+                  <a
+                    href="https://www.instagram.com/saanjhwellness/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="flex items-center gap-2">
+                      <div
+                        className="size-5 bg-contain"
+                        style={{
+                          backgroundImage: `url(${instagramRoundedImage})`,
+                        }}
+                      ></div>
+                      <div>Instagram</div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/company/saanjh-wellness/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="flex items-center gap-2">
+                      <div
+                        className="size-5 bg-contain"
+                        style={{
+                          backgroundImage: `url(${linkedinRoundedImage})`,
+                        }}
+                      ></div>
+                      <div>Linkedin</div>
+                    </div>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="mailto:saanjhwellness@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="flex items-center gap-2">
+                      <EnvelopeIcon className="size-5 text-white" />{" "}
+                      <div>saanjhwellness@gmail.com</div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -118,11 +124,11 @@ function Footer() {
           <div className="flex w-4/12 flex-wrap justify-end">
             <div>Give us a call at&nbsp;</div>
             <a
-              href="tel:+919899654321"
+              href="tel:+919373324053"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="italic">+91 9899654321</div>
+              <div className="italic">+91 9373324053</div>
             </a>
           </div>
         </div>

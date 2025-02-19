@@ -10,6 +10,10 @@ import blog1 from "./blog1.png";
 import blog2 from "./blog2.png";
 import blog3 from "./blog3.png";
 import blog4 from "./blog4.png";
+import blog5 from "./blog5.webp";
+import newEvent from "./IMG_3644.jpg";
+import event1 from "./IMG_3704.webp";
+import event2 from "./IMG_3705.webp";
 // Add more images here
 
 const images: { [key: string]: string } = {
@@ -24,6 +28,10 @@ const images: { [key: string]: string } = {
   blog2,
   blog3,
   blog4,
+  blog5,
+  newEvent,
+  event1,
+  event2,
 };
 
 export default images;

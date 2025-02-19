@@ -1,8 +1,7 @@
 import backgroundImgSrc from "../assets/images/background_vertical.png";
 import logo from "../assets/images/saanjh_logo.png";
 import instagramSquareIcon from "../assets/images/instagram_squared.png";
-import facebookSquareIcon from "../assets/images/facebook_squared.png";
-import twitterSquareIcon from "../assets/images/twitter_squared.png";
+import linkedinSquareIcon from "../assets/images/linkedin_squared.png";
 
 function ContactPage() {
   return (
@@ -26,20 +25,18 @@ function ContactPage() {
               Phone
             </div>
             <a
-              href="tel:+919899654321"
+              href="tel:+919373324053"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="text-lg 2xl:text-xl">+91 9899654321</div>
+              <div className="text-lg 2xl:text-xl">+91 9373324053</div>
             </a>
           </div>
           <div className="col-span-7 space-y-4">
             <div className="font-sans-black text-2xl tracking-tighter text-sunset opacity-90 2xl:text-3xl">
               Location
             </div>
-            <div className="text-lg 2xl:text-xl">
-              FF Main Street, 22nd Avenue
-            </div>
+            <div className="text-lg 2xl:text-xl">Mumbai, Nagpur</div>
           </div>
         </div>
         <div className="grid grid-cols-12 max-xl:gap-8 xl:space-x-8">
@@ -72,16 +69,17 @@ function ContactPage() {
                   alt="Instagram Icon"
                 />
               </a>
-              <img
-                className="size-8 rounded-md bg-orange-400 p-1"
-                src={facebookSquareIcon}
-                alt="Facebook Icon"
-              />
-              <img
-                className="size-8 rounded-md bg-orange-400 p-1"
-                src={twitterSquareIcon}
-                alt="Twitter Icon"
-              />
+              <a
+                href="https://www.linkedin.com/company/saanjh-wellness/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="size-8 rounded-md bg-orange-400 p-1"
+                  src={linkedinSquareIcon}
+                  alt="Facebook Icon"
+                />
+              </a>
             </div>
           </div>
         </div>

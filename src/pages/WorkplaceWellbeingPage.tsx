@@ -1,4 +1,5 @@
 import saanpSidhi from "../assets/images/SaanpSidhi.png";
+import saanpSidhiPhone from "../assets/images/SaanpSidhiPhone.webp";
 import saanjhLogo from "../assets/images/saanjh_logo.png";
 import bluebgwithcircles from "../assets/images/bluebgwithcircles.png";
 
@@ -32,7 +33,7 @@ function WorkplaceWellbeingPage() {
               1.
             </div>
           </div>
-          <div className="grow text-center text-2xl text-white 2xl:text-3xl">
+          <div className="grow text-center text-xl text-white sm:text-2xl 2xl:text-3xl">
             17% more likelihood of high performance
           </div>
         </div>
@@ -42,7 +43,7 @@ function WorkplaceWellbeingPage() {
               2.
             </div>
           </div>
-          <div className="grow text-center text-2xl text-white 2xl:text-3xl">
+          <div className="grow text-center text-xl text-white sm:text-2xl 2xl:text-3xl">
             29% increase in high collaborative behaviours
           </div>
         </div>
@@ -52,7 +53,7 @@ function WorkplaceWellbeingPage() {
               3.
             </div>
           </div>
-          <div className="grow text-center text-2xl text-white 2xl:text-3xl">
+          <div className="grow text-center text-xl text-white sm:text-2xl 2xl:text-3xl">
             20% increase in better decision making by employees
           </div>
         </div>
@@ -61,25 +62,30 @@ function WorkplaceWellbeingPage() {
         <div className="text-5xl 2xl:text-6xl">Our Process</div>
         <div className="text-2xl 2xl:text-3xl">Your Path To Harmony</div>
         <img
-          className="h-auto w-full object-contain"
+          className="hidden h-auto w-full object-contain sm:block"
           src={saanpSidhi}
           alt="Process Image"
         />
+        <img
+          className="h-auto w-full object-contain sm:hidden"
+          src={saanpSidhiPhone}
+          alt="Process Image"
+        />
       </div>
-      <div className="flex flex-col flex-wrap items-center justify-evenly gap-6 bg-sapphire p-4 font-sans-black tracking-tighter text-white opacity-90 md:flex-row">
-        <div className="flex items-center justify-center gap-4">
+      <div className="flex items-center justify-start gap-6 overflow-x-auto bg-sapphire p-4 font-sans-black tracking-tighter text-white opacity-90 md:justify-center md:gap-10">
+        <div className="flex shrink-0 items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
           <div>Trusting</div>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex shrink-0 items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
           <div>Empathetic Workplaces</div>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex shrink-0 items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
           <div>Supportive Environment</div>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex shrink-0 items-center justify-center gap-4">
           <div className="size-5 rounded-full bg-white outline outline-1 outline-offset-2 outline-white"></div>
           <div>Psychological Safety</div>
         </div>

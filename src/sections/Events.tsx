@@ -14,9 +14,25 @@ function Events({ heading = "Events" }) {
           {heading}
         </div>
         <div className="grid grid-cols-3 gap-8 pt-10">
-          <EventCard />
-          <EventCard />
-          <EventCard />
+          <EventCard key="Loneliness" />
+          <EventCard
+            imgName="event1"
+            name="Building Connection"
+            date="24th November, 2024"
+            amount="₹300 - ₹500"
+            numberOfSlots="10"
+            key="Building Connection"
+            timing="4 - 6 pm"
+          />
+          <EventCard
+            imgName="event2"
+            name="A Storytelling Event"
+            key="A Storytelling Event"
+            date="8th February, 2025"
+            timing="11 am - 1 pm"
+            amount="₹300 - ₹500"
+            numberOfSlots="6"
+          />
         </div>
       </div>
     </div>

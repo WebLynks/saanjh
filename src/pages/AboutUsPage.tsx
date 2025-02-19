@@ -10,19 +10,25 @@ const founders: Founder[] = [
     detail:
       "In-house therapist, book addict, animal lover, and aspiring world traveler",
     bgColor: "mango",
+    moreDetail:
+      "Ruchi Bhutada (she/her): Hello! I am Ruchi and my pronouns are she/her. I have a MSc in Mental Health Studies from King's College London. Currently I am practicing as a counselling psychologist in India. I am a firm believer of mental health advocacy as well as mental hygiene, which involves people taking care of their mental health regardless of any “issues”. With Saanjh, I hope to create a space where people can find safety, relatability, comfort, and build acceptance and mental wellness.",
   },
   {
     name: "Abhramika Choudhuri",
     imageName: "abhramika",
     detail:
-      "Mental wellbeing advocate, bibliophile, dancer, and always looking to learn",
+      "Mental wellbeing advocate, bibliophile, dancer, and always looking to learn",
     bgColor: "sapphire",
+    moreDetail:
+      "Abhramika Choudhuri (she/they): Hi! I am Abhramika! I have completed my Master's in Work and Organisational Psychology from Erasmus University, Rotterdam and my MBA from BITSoM. I am deeply passionate about mental health advocacy. I aspire to aid in the creation of inclusive and empathetic work environments through conversations and community. For me Saanjh is a platform through which I can build these communities and connections and create a safer and more accessible world. In my free time I love to read, sing, play the ukulele, and dance.",
   },
   {
     name: "Harshdeep Singh",
     imageName: "harshdeep",
     detail: "Next-door product guy, part time writer, full time curious",
     bgColor: "iris",
+    moreDetail:
+      "Harshdeep Singh (he/him): Hi, My name is Harshdeep and I'm your typical self-stereotyped Engineer turned MBA. What am I doing here you ask? Well I happened to be at the right place, at the right time, with the right people (just MBA things), but more importantly, I like to tinker with inspiring problem solving ideas. Saanjh is a safe space, born out of the virtuousness and passion to be the platform for the community, of the community and by the community and I drive business engagements for our Workplace products. On days when I find time for myself, I scavenge the deeper darkest corners of YouTube to learn something new.",
   },
 ];
 

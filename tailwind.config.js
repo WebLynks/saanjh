@@ -40,5 +40,6 @@ export default {
     "border-sapphire",
     "border-mango",
     "list-decimal",
+    "list-disc",
   ],
 };

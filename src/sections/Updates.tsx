@@ -2,7 +2,7 @@ import UpdateCard from "../components/UpdateCard";
 import { Blog, fetchBlogs } from "../services/blogService";
 
 function Updates() {
-  const blogs: Blog[] = fetchBlogs();
+  const blogs: Blog[] = fetchBlogs().slice(0, 3);
   const bgColors = ["mango", "sapphire", "iris"];
 
   return (

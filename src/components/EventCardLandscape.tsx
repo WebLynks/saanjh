@@ -12,13 +12,13 @@ type EventCardLandscapeProps = {
 };
 
 function EventCardLandscape({
-  name = "Loneliness",
-  imgName = "poster_25_aug",
-  date = "25th August, 2024",
-  amount = "₹400",
-  numberOfSlots = "6",
-  timing = "4 - 6 pm",
-  details = `Loneliness is a mental health program tackling social isolation. It offers support, counseling, and activities to help build connections. The program aims to reduce loneliness and improve emotional well-being.`,
+  name = "Mindfulness Walk",
+  imgName = "newEvent",
+  date = "23rd February, 2024",
+  amount = "₹99",
+  numberOfSlots = "",
+  timing = "4:30 - 6:00 pm",
+  details = `This is our attempt to create a space where we can sit with ourselves, listen to our bodies, and slow down! In this edition, you can expect games, a mindfulness walk, introspection, and sharing—all in doses that feel comfortable for you.`,
   isRegisterOption = true,
 }: EventCardLandscapeProps) {
   const { loading, image } = useImage(imgName);
@@ -42,7 +42,9 @@ function EventCardLandscape({
         <div className="flex w-full flex-wrap items-center justify-between">
           <div className="font-sans-black tracking-tighter text-gray-900 opacity-90">
             <div className="text-3xl lg:text-4xl 2xl:text-5xl">{name}</div>
-            <div className="text-lg 2xl:text-xl">{`Slots: ${numberOfSlots} Seats`}</div>
+            {numberOfSlots && (
+              <div className="text-lg 2xl:text-xl">{`Slots: ${numberOfSlots} Seats`}</div>
+            )}
           </div>
           <div className="font-sans-black text-xl tracking-tighter text-gray-900 opacity-90 lg:text-2xl 2xl:text-3xl">
             {amount}
@@ -55,12 +57,18 @@ function EventCardLandscape({
         </div>
         {isRegisterOption && (
           <div className="flex items-center justify-end">
-            <button
-              type="button"
-              className="rounded-xl bg-mango px-8 py-2 lg:text-lg 2xl:text-xl"
+            <a
+              href="https://forms.gle/PU2nayQp4xwPusgR7"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Register
-            </button>
+              <button
+                type="button"
+                className="rounded-xl bg-mango px-8 py-2 lg:text-lg 2xl:text-xl"
+              >
+                Register
+              </button>
+            </a>
           </div>
         )}
       </div>
