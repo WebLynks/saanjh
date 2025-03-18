@@ -56,7 +56,7 @@ function IndividualTherapyPage() {
             <img
               src={individualTherapyRuchi}
               alt="IndividualTherapyRuchi"
-              className="h-full"
+              className="h-full w-full object-contain"
             />
           </div>
           <div className="col-span-2 md:col-span-1">
@@ -95,7 +95,7 @@ function IndividualTherapyPage() {
             src={kingsCollegeLogo}
             alt="King's College Logo"
           />
-          <div className="font-sans-regular w-full text-center text-lg 2xl:text-xl">
+          <div className="w-full text-center font-sans-regular text-lg 2xl:text-xl">
             MSc Mental Health Studies
           </div>
         </div>
@@ -105,7 +105,7 @@ function IndividualTherapyPage() {
             src={flameUniversityLogo}
             alt="Flame University Logo"
           />
-          <div className="font-sans-regular w-full text-center text-lg 2xl:text-xl">
+          <div className="w-full text-center font-sans-regular text-lg 2xl:text-xl">
             BA (Psychology) & PG Diploma in Interdisciplinary Studies and
             Research (Psychology)
           </div>
