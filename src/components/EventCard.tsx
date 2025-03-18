@@ -35,7 +35,7 @@ function EventCard({
               {amount}
             </div>
           </div>
-          <div className="font-sans-black flex justify-between text-xs tracking-tighter text-gray-900 opacity-90">
+          <div className="flex justify-between font-sans-black text-xs tracking-tighter text-gray-900 opacity-90">
             <div className="">{`Slots: ${numberOfSlots} Seats`}</div>
             <div className="">{`Time: ${timing}`}</div>
           </div>

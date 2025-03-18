@@ -12,13 +12,13 @@ type EventCardLandscapeProps = {
 };
 
 function EventCardLandscape({
-  name = "Mindfulness Walk",
-  imgName = "newEvent",
-  date = "23rd February, 2024",
-  amount = "₹99",
-  numberOfSlots = "",
-  timing = "4:30 - 6:00 pm",
-  details = `This is our attempt to create a space where we can sit with ourselves, listen to our bodies, and slow down! In this edition, you can expect games, a mindfulness walk, introspection, and sharing—all in doses that feel comfortable for you.`,
+  name = "Raahat",
+  imgName = "raahat",
+  date = "29th March, 2025",
+  amount = "₹600",
+  numberOfSlots = "10 - Online",
+  timing = "4:30 - 6:30 pm",
+  details = `This is our attempt to create a space where we can sit with ourselves, listen to our bodies, and slow down!`,
   isRegisterOption = true,
 }: EventCardLandscapeProps) {
   const { loading, image } = useImage(imgName);
@@ -58,7 +58,7 @@ function EventCardLandscape({
         {isRegisterOption && (
           <div className="flex items-center justify-end">
             <a
-              href="https://forms.gle/PU2nayQp4xwPusgR7"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd1fLLo4x1wbDPOOcUJtQtMyJwFQFG3TWsiptY1aw45uNRTNg/viewform?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
