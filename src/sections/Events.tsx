@@ -15,13 +15,13 @@ function Events({ heading = "Events" }) {
         </div>
         <div className="grid grid-cols-3 gap-8 pt-10">
           <EventCard
-            imgName="newEvent"
-            name="Mindfulness Walk"
-            date="23rd February, 2024"
-            amount="₹99"
-            numberOfSlots=""
-            key="Mindfulness Walk"
-            timing="4:30 - 6:00 pm"
+            imgName="raahat"
+            name="Raahat"
+            date="29th March, 2025"
+            amount="₹600"
+            numberOfSlots="10 - Online"
+            key="Raahat"
+            timing="4:30 - 6:30 pm"
           />
           <EventCard
             imgName="event1"

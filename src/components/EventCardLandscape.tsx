@@ -12,13 +12,13 @@ type EventCardLandscapeProps = {
 };
 
 function EventCardLandscape({
-  name = "Raahat",
-  imgName = "raahat",
-  date = "29th March, 2025",
-  amount = "₹600",
-  numberOfSlots = "10 - Online",
-  timing = "4:30 - 6:30 pm",
-  details = `This is our attempt to create a space where we can sit with ourselves, listen to our bodies, and slow down!`,
+  name = "Embracing Life Through Poetry",
+  imgName = "embracing_life_through_poetry",
+  date = "27th April, 2025",
+  amount = "₹400",
+  numberOfSlots = "6",
+  timing = "5 pm - 7 pm",
+  details = `The theme for this edition is 'Embracing Life through Poetry'. This event focuses on exploring significant life experiences through poetry, guided by counseling psychologists Batul and Ruchi. Participants can expect poetry reading, creative expression, and exciting goodie bags.`,
   isRegisterOption = true,
 }: EventCardLandscapeProps) {
   const { loading, image } = useImage(imgName);
@@ -58,7 +58,7 @@ function EventCardLandscape({
         {isRegisterOption && (
           <div className="flex items-center justify-end">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd1fLLo4x1wbDPOOcUJtQtMyJwFQFG3TWsiptY1aw45uNRTNg/viewform?usp=sharing"
+              href="https://corridorsevencoffee.myinstamojo.com/product/corridor-seven-journaling-club-edition-5th/"
               target="_blank"
               rel="noopener noreferrer"
             >

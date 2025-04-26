@@ -16,6 +16,7 @@ import newEvent from "./IMG_3644.jpg";
 import event1 from "./IMG_3704.webp";
 import event2 from "./IMG_3705.webp";
 import raahat from "./Rahaat.webp";
+import embracing_life_through_poetry from "./IMG_3645.jpg";
 // Add more images here
 
 const images: { [key: string]: string } = {
@@ -36,6 +37,7 @@ const images: { [key: string]: string } = {
   event1,
   event2,
   raahat,
+  embracing_life_through_poetry,
 };
 
 export default images;
