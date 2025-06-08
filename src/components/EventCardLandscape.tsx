@@ -11,14 +11,15 @@ type EventCardLandscapeProps = {
   isRegisterOption?: boolean;
 };
 
-function EventCardLandscape({
-  name = "Embracing Life Through Poetry",
-  imgName = "embracing_life_through_poetry",
-  date = "27th April, 2025",
-  amount = "₹400",
+// This is the component that renders a single event
+function EventCard({
+  name = "Euphoria: Exploring Queer Joy",
+  imgName = "queer_joy",
+  date = "8th June, 2025",
+  amount = "₹300 - ₹500",
   numberOfSlots = "6",
-  timing = "5 pm - 7 pm",
-  details = `The theme for this edition is 'Embracing Life through Poetry'. This event focuses on exploring significant life experiences through poetry, guided by counseling psychologists Batul and Ruchi. Participants can expect poetry reading, creative expression, and exciting goodie bags.`,
+  timing = "4.30 pm - 6 pm",
+  details = `Queerness is not just about challenging and traumatic experiences. Join us to share your joy, laughter, and community.`,
   isRegisterOption = true,
 }: EventCardLandscapeProps) {
   const { loading, image } = useImage(imgName);
@@ -58,7 +59,7 @@ function EventCardLandscape({
         {isRegisterOption && (
           <div className="flex items-center justify-end">
             <a
-              href="https://corridorsevencoffee.myinstamojo.com/product/corridor-seven-journaling-club-edition-5th/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -76,4 +77,47 @@ function EventCardLandscape({
   );
 }
 
-export default EventCardLandscape;
+// This wrapper renders multiple events using the EventCard above
+export default function EventCardLandscape() {
+  const events: EventCardLandscapeProps[] = [
+    {
+      imgName: "queer_joy",
+      name: "Euphoria: Exploring Queer Joy",
+      date: "8th June, 2025",
+      amount: "₹300 - ₹500",
+      numberOfSlots: "6",
+      timing: "4.30 pm - 6 pm",
+      details: `Queerness is not just about challenging and traumatic experiences. Join us to share your joy, laughter, and community.`,
+      isRegisterOption: false,
+    },
+    {
+      imgName: "pyschologists_off_the_clock", // <- fill your own
+      name: "Psychologists Off The Clock",
+      date: "14th June, 2025",
+      amount: "",
+      numberOfSlots: "",
+      timing: "6.30 pm - 8 pm",
+      details: "A place for pyschologists to meet, relax and center play! :). Contact us to know more about how to join.",
+      isRegisterOption: false,
+    },
+    {
+      imgName: "exploring_anxiety", // <- fill your own
+      name: "Exploring Anxiety",
+      date: "21st June, 2025",
+      amount: "",
+      numberOfSlots: "",
+      timing: "5 pm - 7 pm",
+      details: "This edition invites you to explore and express your anxiety through creativity. We will use various creative mediums so that you can understand your anxiety better. Additionally we will be working on coming up with tools to navigate the anxiety, all in a supportive community space. ",
+      isRegisterOption: false,
+    },
+  ];
+
+  return (
+    <div className="px-6 py-12 md:px-12 lg:px-24">
+      <h2 className="text-3xl font-bold text-center mb-10">Upcoming Events</h2>
+      {events.map((event, index) => (
+        <EventCard key={index} {...event} />
+      ))}
+    </div>
+  );
+}

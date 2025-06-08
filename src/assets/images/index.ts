@@ -17,6 +17,9 @@ import event1 from "./IMG_3704.webp";
 import event2 from "./IMG_3705.webp";
 import raahat from "./Rahaat.webp";
 import embracing_life_through_poetry from "./IMG_3645.jpg";
+import queer_joy from "./queer_joy.jpg";
+import pyschologists_off_the_clock from "./pyschologists_off_the_clock.jpg";
+import exploring_anxiety from "./exploring_anxiety.jpg";
 // Add more images here
 
 const images: { [key: string]: string } = {
@@ -38,6 +41,9 @@ const images: { [key: string]: string } = {
   event2,
   raahat,
   embracing_life_through_poetry,
+  queer_joy,
+  pyschologists_off_the_clock,
+  exploring_anxiety,
 };
 
 export default images;
